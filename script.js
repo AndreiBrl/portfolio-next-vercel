@@ -1,13 +1,21 @@
+var balao = document.querySelector('.balao')
+
+
+	function mostra(){
+		balao.style.visibility= 'visible';
+		
+	}
+
 window.sr = ScrollReveal({reset:true});
 
-ScrollReveal().reveal('.texto2',{
+ScrollReveal().reveal('.tituloSessao1',{
 
 	distance: '50px',
 	duration: 2000,
 
 	delay: 50
 });
-ScrollReveal().reveal('.perfil1',{
+ScrollReveal().reveal('.perfilSessaoUm',{
 	
 	distance: '50px',
 	duration: 2000,
@@ -34,3 +42,20 @@ ScrollReveal().reveal('.habilidades',{
 
 	delay: 50
 });
+
+ScrollReveal().reveal('.icones',{
+	distance: '50px',
+	duration: 2000,
+
+	delay: 50
+});
+ScrollReveal().reveal('.linhaVertical',{
+	distance: '50px',
+	duration: 2000,
+
+	delay: 50
+});
+
+
+
+
