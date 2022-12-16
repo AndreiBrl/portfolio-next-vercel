@@ -1,0 +1,402 @@
+/* ----HEAD COMENTADO----
+nav
+.menu1{
+	display: flex;
+	padding-top: 1%;
+	background-color: #333333;
+	padding-bottom: 1%;
+	opacity: 85%;
+	padding-left: 35%;
+	
+	position: fixed;
+	top: 0px;
+	backdrop-filter: blur(10px);
+}
+.menu1 p{
+	font-family:F37 Ginger;
+	
+	color: white;
+	padding-top: 2%;
+	
+	padding-left: 3%;
+}
+.menu1 img{
+	width: 38%;
+	padding-left: 4%;	
+}
+.gitlinkedln{
+	
+	padding-left: 37%;
+
+	cores do bg = #FFD369,#EEEEEE,#2C3639,#5C5C5C
+}*/
+
+
+
+/* ------ MAIN-----*/
+html{
+	scroll-behavior: smooth;
+}
+main{
+	/* --- background --- */
+	width: 100%;
+	background:linear-gradient(to bottom ,#FFD369 0 8%  , #fce6a2 15% 100% );
+	background-size: 200% 250%;
+	/*animation: colors 15s ease ;*/
+}
+.iconeGit img{
+	width: 8.5%;
+	margin-left:7%;
+	margin-bottom: 2%;
+	opacity: 90%;
+	
+	
+}
+
+
+.iconeWpp img{
+	width: 5.5%;
+	margin-left:8%;
+	margin-bottom: 2.5%;
+	opacity: 90%;
+	
+}
+.iconeLinkedin img{
+	width: 5.5%;
+	margin-left:8%;
+}
+
+.icones{
+	
+	position: absolute;
+	position: fixed;
+	margin-top: 32%;
+	animation: redes-sociais 2.5s ease-in-out;
+	
+	
+}
+
+
+.linhaVertical{
+	position: absolute;
+	position: fixed;
+	border-left: 2px solid #2D2D2D;
+	margin-top: 43%;
+	margin-left:4%;
+	padding-bottom: 15%;
+	opacity: 85%;
+	animation: redes-sociais 2.5s ease-in-out;
+	
+}
+
+.perfil1{
+	
+	width: 140%;
+		
+	padding-top: 25%;
+}
+.cubo{
+	width: 5%;
+	padding-left: 92%;
+	animation: CuboMexe 3s linear infinite;
+}
+.sombra{
+	border-bottom: 8px solid black;
+	margin-left: 93%;
+	margin-right: 3.5%;
+	margin-top: 1%;
+	border-radius: 90%;
+	opacity: 75%;
+	animation: sombraAcompanha 3s linear infinite;
+
+	
+}
+.containerimg{
+	
+	padding-left: 5%;
+
+}
+.container{
+	display: flex;
+		
+}
+.texto2{
+	padding-bottom: 0;
+	margin-bottom: 0;
+	
+}
+
+
+.texto2 h2{
+
+	font-size: 450%;
+	font-family: Code Next ExtraBold;
+	color: #2D2D2D;
+	padding-top: 30%;
+	padding-left: 30%;
+
+}
+.texto2 h3{
+	font-family: Instruction;
+	font-size: 190%;
+	color: #C84B31;
+	padding-left: 30%;
+}
+
+.iconeMeio img{
+	width: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 45%;
+
+	
+
+
+
+
+}
+.sobre{
+	vertical-align: top;
+}
+
+.sobre h4{
+	font-family: Instruction;
+	font-size: 150%;
+	color: #C84B31;
+	
+	padding-left: 20%;
+
+}
+.sobre h1{
+	color: #FFFC00;
+	font-size: 250%;
+	text-align: center;
+	font-family: NeuzeitGroteskCondW01-Black;
+
+}
+.sobre h2{
+	font-family: Instruction;
+	font-size: 350%;
+	color: #333333;
+	
+	padding-left: 20%;
+}
+.sobre p{
+
+	font-size: 85%;
+	color: #333333;
+	padding-top: 5%;
+	padding-left: 20%;
+	line-height: 200%;
+	
+	padding-right: 15%;
+	font-family: Instruction;
+}
+.sobre img{
+	width: 15%;
+	padding-right: 10%;
+}
+.projetos h4{
+	font-family: Instruction;
+	font-size: 150%;
+	color: #C84B31;
+	
+	padding-left: 20%;
+
+}
+.projetos h1{
+	
+	color: #FFD369;
+	font-size: 250%;
+	text-align: center;
+	font-family: Code Next ExtraBold;
+}
+.projetos h2{
+	
+	font-family: Instruction;
+	font-size: 350%;
+	color: #2D2D2D;	
+	padding-left: 20%;
+
+
+}
+.teste{
+	display: flex;
+
+	margin-left: 7%;
+}
+.box1{
+	
+	border-radius: 10%;
+	background-color:#2D2D2D;
+	width: 24%;
+	
+	margin-top: 5%;
+	margin-left: 13.5%;
+	padding-bottom: 8%;
+	padding-top: 7%;
+	opacity: 85%;
+
+
+}
+
+.habilidades h4{
+	font-family: Instruction;
+	font-size: 150%;
+	color: #C84B31;
+	
+	padding-left: 20%;
+
+}
+
+.habilidades h1{
+	padding-top: 5%;
+	color: #FFFC00;
+	font-size: 250%;
+	text-align: center;
+	font-family: NeuzeitGroteskCondW01-Black;
+}
+.habilidades h2{
+	
+	font-family: Instruction;
+	font-size: 350%;
+	color: #2D2D2D;
+	padding-bottom: 5%;
+	padding-left: 20%;
+
+
+}
+.habilidadesImagens{
+	display: flex;
+	
+}
+.iconeCssHtmlJs  {
+	padding-top: 2%;
+	height: 25%;
+	width: 25%;
+	padding-left: 16%;
+	
+	
+}
+.iconeGitGitHub{
+	
+	width: 25%;
+
+
+}
+
+.iconeCsharp {
+
+	padding-left: 21%;
+	width: 13%;
+	
+	
+}
+.iconeMySql{
+	padding-left: 10%;
+	width: 20%;
+	height: 20%;
+}
+/*---------KEYFRAMES--------*/
+@keyframes colors{
+	0%{
+		background-position: 0% 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	
+
+}
+@keyframes redes-sociais {
+
+
+	24%{
+		transform: translateY(6%);
+
+	}
+	30%{
+		transform: translateY(-100%);
+	}
+	36%{
+		transform: translateY(5%);
+		}
+	42%{
+		transform: translateY(-75%);
+
+	}
+	48%{
+		transform: translateY(4%);
+	}
+	54%{
+		transform: translateY(-50%);
+	}
+	62%{
+		transform: translateY(3%);
+	}
+
+	68%{
+		transform: translateY(-25%);
+	}
+	74%{
+		transform: translateY(2%);
+	}
+	80%{
+		transform: translateY(-12%);
+	}
+	86%{
+		transform: translateY(1%);
+	}
+	92%{
+		transform: translateY(-6%);
+	}
+
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes CuboMexe{
+	0%{
+		transform: translateY(0%) rotateY(0deg);
+		
+	}
+		25%{
+		transform: translateY(10%) rotateY(-5deg);
+		
+	}
+	50%{
+		transform: translateY(0%);
+	}
+	75%{
+		transform: translateY(-10%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes sombraAcompanha{
+
+	0%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+
+	25%{
+		transform: scale3d(-0.8,-0.8,-0.8);
+	}
+
+	
+
+	50%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+	75%{
+		transform: scale3d(0,0,0);
+	}
+	100%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+}
+
+.texto2,.perfil1,.sobre,.projetos,.habilidades{
+	visibility: hidden;
+}
