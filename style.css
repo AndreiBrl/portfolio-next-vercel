@@ -381,9 +381,7 @@ main{
 	padding-left: 35%;
 	
 }
-.botao, .sombra{
-	visibility: hidden;
-}
+
 .sobre p{
 	text-align: justify;
 }
