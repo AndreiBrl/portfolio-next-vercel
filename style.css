@@ -57,6 +57,9 @@ html{
 	visibility: hidden;
 
 }
+input{
+	background-color: transparent;
+}
 main{
 	/* --- background --- */
 	width: 100%;
