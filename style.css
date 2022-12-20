@@ -56,8 +56,9 @@ main{
 	margin-left:7%;
 	margin-bottom: 2%;
 	opacity: 90%;
-	
-	
+}
+.iconeGit img:hover {
+	opacity: 50%;
 }
 
 
@@ -68,11 +69,16 @@ main{
 	opacity: 90%;
 	
 }
+.iconeWpp img:hover {
+	opacity: 50%;
+}
 .iconeLinkedin img{
 	width: 5.5%;
 	margin-left:8%;
 }
-
+.iconeLinkedin img:hover {
+	opacity: 50%;
+}
 .icones{
 	
 	left: 0;
@@ -105,7 +111,7 @@ main{
 }
 .botao{
 	width: 2%;
-	background-color: #FFD369;
+	background-color:transparent;
 	border: none;
 	margin-left:91%;
 
@@ -432,7 +438,7 @@ main{
 	}
 }
 
-.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.icones,.linhaVertical{
+.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.icones,.iconeMeio,.linhaVertical{
 	visibility: hidden;
 }
 

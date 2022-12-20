@@ -8,6 +8,33 @@ var balao = document.querySelector('.balao')
 
 window.sr = ScrollReveal({reset:true});
 
+ScrollReveal().reveal('.iconeGit',{
+	distance: '10px',
+	duration: 3000,
+
+	delay: 50
+});
+
+ScrollReveal().reveal('.iconeWpp',{
+	distance: '30px',
+	duration: 2500,
+
+	delay: 50
+});
+
+ScrollReveal().reveal('.iconeLinkedin',{
+	distance: '50px',
+	duration: 1500,
+
+	delay: 50
+});
+ScrollReveal().reveal('.linhaVertical',{
+	distance: '50px',
+	duration: 2000,
+
+	delay: 50
+});
+
 ScrollReveal().reveal('.tituloSessao1',{
 
 	distance: '50px',
@@ -43,13 +70,8 @@ ScrollReveal().reveal('.habilidades',{
 	delay: 50
 });
 
-ScrollReveal().reveal('.icones',{
-	distance: '50px',
-	duration: 2000,
 
-	delay: 50
-});
-ScrollReveal().reveal('.linhaVertical',{
+ScrollReveal().reveal('.iconeMeio',{
 	distance: '50px',
 	duration: 2000,
 
