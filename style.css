@@ -43,13 +43,13 @@ nav
 html{
 	scroll-behavior: smooth;
 }
-.lampadaAcesa img {
+.lampadaAcesa {
 	position: absolute;
 	right: 5%;
 	top: -2%;
 	width: 3%;
 }
-.lampadaApagada img{
+.lampadaApagada{
 	position: absolute;
 	right: 5%;
 	top: -2%;
