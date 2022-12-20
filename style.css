@@ -1,3 +1,9 @@
+/* ----- Fontes -----*
+Code Next ExtraBold
+Instruction
+NeuzeitGroteskCondW01-Black
+*/
+
 /* ----HEAD COMENTADO----
 nav
 .menu1{
@@ -40,6 +46,7 @@ html{
 main{
 	/* --- background --- */
 	width: 100%;
+	
 	background:linear-gradient(to bottom ,#FFD369 0 8%  , #fce6a2 15% 100% );
 	background-size: 200% 250%;
 	/*animation: colors 15s ease ;*/
@@ -317,6 +324,33 @@ main{
 	width: 20%;
 	height: 20%;
 }
+/*---------- RESPONSIVIDADE ---------*/
+
+@media screen and (max-width: 980px){
+
+
+.container{
+	display: inline;
+}
+.perfilSessaoUm{
+	padding-top: 10%;
+	width: 50%;
+	margin-left: 25%;
+	
+}
+.tituloSessao1 h2{
+
+	padding-top: 20%;
+	padding-left: 20%;
+
+}
+.tituloSessao1 h3{
+	padding-left: 20%;
+}
+    
+}
+
+
 /*---------KEYFRAMES--------*/
 @keyframes colors{
 	0%{
@@ -328,6 +362,53 @@ main{
 	
 
 }
+@keyframes CuboMexe{
+	0%{
+		transform: translateY(0%) rotateY(0deg);
+		
+	}
+		25%{
+		transform: translateY(10%) rotateY(-5deg);
+		
+	}
+	50%{
+		transform: translateY(0%);
+	}
+	75%{
+		transform: translateY(-10%);
+	}
+	100%{
+		transform: translateY(0%);
+	}
+}
+@keyframes sombraAcompanha{
+
+	0%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+
+	25%{
+		transform: scale3d(-0.8,-0.8,-0.8);
+	}
+
+	
+
+	50%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+	75%{
+		transform: scale3d(0,0,0);
+	}
+	100%{
+		transform: scale3d(-0.4,-0.4,-0.4);
+	}
+}
+
+.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.icones,.linhaVertical{
+	visibility: hidden;
+}
+
+
 /*
 
 Animação botões da esquerda 
@@ -379,48 +460,3 @@ Animação botões da esquerda
 		transform: translateY(0%);
 	}
 }*/
-@keyframes CuboMexe{
-	0%{
-		transform: translateY(0%) rotateY(0deg);
-		
-	}
-		25%{
-		transform: translateY(10%) rotateY(-5deg);
-		
-	}
-	50%{
-		transform: translateY(0%);
-	}
-	75%{
-		transform: translateY(-10%);
-	}
-	100%{
-		transform: translateY(0%);
-	}
-}
-@keyframes sombraAcompanha{
-
-	0%{
-		transform: scale3d(-0.4,-0.4,-0.4);
-	}
-
-	25%{
-		transform: scale3d(-0.8,-0.8,-0.8);
-	}
-
-	
-
-	50%{
-		transform: scale3d(-0.4,-0.4,-0.4);
-	}
-	75%{
-		transform: scale3d(0,0,0);
-	}
-	100%{
-		transform: scale3d(-0.4,-0.4,-0.4);
-	}
-}
-
-.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.icones,.linhaVertical{
-	visibility: hidden;
-}

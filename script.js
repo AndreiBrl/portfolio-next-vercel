@@ -55,7 +55,3 @@ ScrollReveal().reveal('.linhaVertical',{
 
 	delay: 50
 });
-
-
-
-
