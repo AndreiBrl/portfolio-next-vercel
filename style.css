@@ -43,13 +43,13 @@ nav
 html{
 	scroll-behavior: smooth;
 }
-.lampadaAcesa{
+.lampadaAcesa img {
 	position: absolute;
 	right: 5%;
 	top: -2%;
 	width: 3%;
 }
-.lampadaApagada{
+.lampadaApagada img{
 	position: absolute;
 	right: 5%;
 	top: -2%;
@@ -381,7 +381,9 @@ main{
 	padding-left: 35%;
 	
 }
-
+.botao, .sombra{
+	visibility: hidden;
+}
 .sobre p{
 	text-align: justify;
 }
