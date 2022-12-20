@@ -47,7 +47,7 @@ main{
 	/* --- background --- */
 	width: 100%;
 	
-	background:linear-gradient(to bottom ,#FFD369 0 8%  , #fce6a2 15% 100% );
+	background:linear-gradient(to bottom ,#FFD369 0 5%  , #fce6a2 12% 100% );
 	background-size: 200% 250%;
 	/*animation: colors 15s ease ;*/
 }
