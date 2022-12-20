@@ -334,18 +334,30 @@ main{
 }
 .perfilSessaoUm{
 	padding-top: 10%;
-	width: 50%;
-	margin-left: 25%;
+	width: 90%;
+	
 	
 }
 .tituloSessao1 h2{
-
-	padding-top: 20%;
+	font-size: 600%;
+	padding-top: 25%;
 	padding-left: 20%;
 
 }
 .tituloSessao1 h3{
 	padding-left: 20%;
+	font-size: 300%;
+	padding-bottom: 5%;
+}
+.iconeMeio img{
+	width: 30%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 35%;
+	
+}
+.botao, .sombra{
+	visibility: hidden;
 }
     
 }
