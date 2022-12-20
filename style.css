@@ -393,17 +393,21 @@ top: 22%;
 	width: 22%;
 	margin-left:6%;
 	
-	opacity: 90%;
+	opacity: 80%;
 }
 .iconeWpp img{
 	width: 15.5%;
 	margin-left:8%;
-	opacity: 90%;
+	opacity: 80%;
 	
 }
 .iconeLinkedin img{
 	width: 15%;
 	margin-left:8%;
+	opacity: 80%;
+}
+.linhaVertical{
+	display: none;
 }
 
 
