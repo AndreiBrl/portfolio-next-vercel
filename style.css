@@ -79,7 +79,7 @@ main{
 	bottom: 15%;
 	position: fixed;
 	margin-top: 32%;
-	animation: redes-sociais 2.5s ease-in-out;
+	/*animation: redes-sociais 2.5s ease-in-out;*/
 	
 	
 }
@@ -335,6 +335,7 @@ main{
 .perfilSessaoUm{
 	padding-top: 10%;
 	width: 90%;
+	margin-left: 4%;
 	
 	
 }
@@ -358,6 +359,21 @@ main{
 }
 .botao, .sombra{
 	visibility: hidden;
+}
+.sobre p{
+	text-align: justify;
+}
+.sobre img{
+	display: none;
+}
+.emBreve{
+	display: inline;
+}
+.box1{
+	width: 50%;
+	padding-top: 15%;
+	padding-bottom: 15%;
+	margin-left: 25%;
 }
     
 }
