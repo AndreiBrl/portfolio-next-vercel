@@ -148,6 +148,7 @@ main{
 .tituloSessao1{
 	padding-bottom: 0;
 	margin-bottom: 0;
+	margin-left: 10%;
 	
 }
 
@@ -381,7 +382,32 @@ main{
 	padding-bottom: 15%;
 	margin-left: 25%;
 }
-    
+
+.icones{
+	
+top: 22%;
+
+}
+
+.iconeGit img {
+	width: 22%;
+	margin-left:6%;
+	
+	opacity: 90%;
+}
+.iconeWpp img{
+	width: 15.5%;
+	margin-left:8%;
+	opacity: 90%;
+	
+}
+.iconeLinkedin img{
+	width: 15%;
+	margin-left:8%;
+}
+
+
+
 }
 
 
@@ -438,7 +464,7 @@ main{
 	}
 }
 
-.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.icones,.iconeMeio,.linhaVertical{
+.tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.iconeMeio{
 	visibility: hidden;
 }
 
