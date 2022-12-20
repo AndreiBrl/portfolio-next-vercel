@@ -1,3 +1,20 @@
+/* ---- DarkMode ----*/
+var lampadaAcesa = document.querySelector('.lampadaAcesa')
+var lampadaApagada = document.querySelector('.lampadaApagada')
+var perfil = document.querySelector('.perfilSessaoUm')
+function darkmode(){
+	lampadaAcesa.style.visibility='hidden';
+	lampadaApagada.style.visibility='visible';
+	perfil.style.visibility='hidden';
+}
+function lightmode(){
+	lampadaAcesa.style.visibility='visible';
+	lampadaApagada.style.visibility='hidden';
+	perfil.style.visibility='visible';
+
+}
+
+/* ----- Balao -------*/
 var balao = document.querySelector('.balao')
 
 
@@ -8,7 +25,7 @@ var balao = document.querySelector('.balao')
 
 window.sr = ScrollReveal({reset:true});
 
-
+/* ---- Scroll smooth reveal ---- */
 
 ScrollReveal().reveal('.tituloSessao1',{
 

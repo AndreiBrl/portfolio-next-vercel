@@ -43,6 +43,20 @@ nav
 html{
 	scroll-behavior: smooth;
 }
+.lampadaAcesa{
+	position: absolute;
+	right: 5%;
+	top: -2%;
+	width: 3%;
+}
+.lampadaApagada{
+	position: absolute;
+	right: 5%;
+	top: -2%;
+	width: 3%;
+	visibility: hidden;
+
+}
 main{
 	/* --- background --- */
 	width: 100%;
@@ -409,7 +423,9 @@ top: 22%;
 .linhaVertical{
 	display: none;
 }
-
+.lampadaAcesa, .lampadaApagada{
+	width: 10%;
+}
 
 
 }
