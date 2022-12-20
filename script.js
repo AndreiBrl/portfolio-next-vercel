@@ -29,7 +29,7 @@ var balao = document.querySelector('.balao')
 		
 	}
 
-window.sr = ScrollReveal({reset:true});
+window.sr = ScrollReveal({reset:false});
 
 /* ---- Scroll smooth reveal ---- */
 
