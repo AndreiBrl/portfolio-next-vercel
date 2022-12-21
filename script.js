@@ -2,11 +2,14 @@
 var linha2 = document.querySelector('.linhaMenu2');
 var linha1 = document.querySelector('.linhaMenu1');
 var linha3 = document.querySelector('.linhaMenu3');
+var menu = document.querySelector('.menu');
 linha3.addEventListener("click", () => {
 	
 	linha2.classList.toggle('transforma');
 	linha1.classList.toggle('transforma');
 	linha3.classList.toggle('transforma');
+	menu.classList.toggle('aumentaMenu');	
+	linha3.style.visibility='visible';
 
 })
 

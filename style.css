@@ -37,33 +37,46 @@ nav
 	cores do bg = #FFD369,#EEEEEE,#2C3639,#5C5C5C
 }*/
 /* ---- MENU MOBILE ---- */
-
-.linhaMenu1, .linhaMenu2, .linhaMenu3{
-	border-top: 5px solid #2D2D2D;
-	width: 10%;
-	
-	margin-left: 130%;
-	position: absolute;
-
-}
-.linhaMenu1{
-	top: -315%;
-	opacity: 100%;
+.menu{
+	top: 0%;
+	width: 100%;
+	height: 8%;
+	background: blue;
+	position: fixed;
 	transition: all 0.5s;
+	backdrop-filter: blur(10px);
+	opacity: 50%;
+}
+.aumentaMenu{
+	height: 30%;
+}
+
+.linhaMenu1{
+	
+	border-top: 5px solid #2D2D2D;
+	width: 5%;
+	padding-top: 2%;
+	transition: all 0.5s;
+	margin-left: 50%;
 	
 }
 .transforma{
 	transform: rotateZ(90deg);
 
 }
-.linhaMenu2{
-	top: -310%;
-	opacity: 100%;
+.linhaMenu2{	
+	
+	border-top: 5px solid #2D2D2D;
+	width: 5%;
+	margin-left: 50%;
 	transition: all 0.5s;
 }
 .linhaMenu3{
-	top: -305%;
-	opacity: 100%;
+	margin-left: 50%;
+	border-top: 5px solid #2D2D2D;
+	margin-top: 2%;
+	width: 5%;
+	cursor: pointer;
 	transition: all 0.5s;
 }
 
@@ -74,7 +87,12 @@ nav
 html{
 	scroll-behavior: smooth;
 }
+
+	
+	
+
 .lampadaAcesa {
+	margin-top: 100px;
 	position: absolute;
 	right: 5%;
 	top: 4%;
@@ -82,6 +100,7 @@ html{
 	cursor: pointer;
 }
 .lampadaApagada{
+	margin-top: 100px;
 	position: absolute;
 	right: 5%;
 	top: 4%;
@@ -95,8 +114,8 @@ input{
 }
 main{
 	/* --- background --- */
-	width: 100%;
 	
+	width: 100%;
 	background:linear-gradient(to bottom ,#FFD369 0 5%  , #fce6a2 12% 100% );
 	background-size: 200% 250%;
 	/*animation: colors 15s ease ;*/
@@ -465,25 +484,23 @@ top: 22%;
 	width: 20%;
 }
 .linhaMenu1{
-	width: 15%;
+	margin-top: 4%;
+	width: 10%;
 	border-top: 8px solid #2D2D2D;
-	top: -85%;
-	position: absolute;
-	left: -40%;
+	margin-left: 45%;
+		
 }
 .linhaMenu2{
-	width: 15%;
+	width: 10%;
+	margin-left: 45%;
 	border-top: 8px solid #2D2D2D;
-	top: -83%;
-	position: absolute;
-	left: -40%;
+
 }
 .linhaMenu3{
-	width: 15%;
+	width: 10%;
+	margin-left: 45%;
 	border-top: 8px solid #2D2D2D;
-	top: -81%;
-	position: absolute;
-	left: -40%;
+	
 }
 
 
