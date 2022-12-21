@@ -43,14 +43,17 @@ nav
 	top: 0%;
 	width: 100%;
 	height: 8%;
-	background: transparent;
+	background: #FFD369;
 	position: fixed;
-	transition: all 1s;
+	transition: all 1s ease-in-out;
+	opacity: 50%;
+	
 	
 	
 }
 .aumentaMenu{
 	height: 30%;
+	
 }
 
 .linhaMenu1{
@@ -58,7 +61,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	padding-top: 2%;
-	transition: all 1s;
+	transition: all 1s ease-in-out;
 	margin-left: 50%;
 	
 }
@@ -71,7 +74,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	margin-left: 50%;
-	transition: all 1s;
+	transition: all 1s ease-in-out;
 }
 .linhaMenu3{
 	margin-left: 50%;
@@ -79,7 +82,7 @@ nav
 	margin-top: 2%;
 	width: 5%;
 	cursor: pointer;
-	transition: all 1s;
+	transition: all 1s ease-in-out;
 }
 .movimentaBotaoGit{
 	
@@ -118,7 +121,7 @@ html{
 
 .lampadaAcesa {
 	margin-top: 100px;
-	position: absolute;
+	position:fixed;
 	right: 5%;
 	top: 4%;
 	width: 10%;
@@ -128,7 +131,7 @@ html{
 }
 .lampadaApagada{
 	margin-top: 100px;
-	position: absolute;
+	position: fixed;
 	right: 5%;
 	top: 4%;
 	width: 10%;
