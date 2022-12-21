@@ -435,6 +435,9 @@ top: 22%;
 
 
 /*---------KEYFRAMES--------*/
+/*
+ ---- Animação background Inativa ---- 
+
 @keyframes colors{
 	0%{
 		background-position: 0% 50%;
@@ -444,20 +447,23 @@ top: 22%;
 	}
 	
 
-}
+}*/
 @keyframes CuboMexe{
+	/* Cubo começa no meio de seu movimento*/
 	0%{
-		transform: translateY(0%) rotateY(0deg);
+		transform: translateY(0%) 
 		
-	}
+	} 	
 		25%{
-		transform: translateY(10%) rotateY(-5deg);
+		transform: translateY(10%) 
 		
 	}
 	50%{
 		transform: translateY(0%);
 	}
+
 	75%{
+		/* Ponto mais alto*/
 		transform: translateY(-10%);
 	}
 	100%{
@@ -467,24 +473,31 @@ top: 22%;
 @keyframes sombraAcompanha{
 
 	0%{
-		transform: scale3d(-0.4,-0.4,-0.4);
+		transform: scale3d(1,1,1);
+		opacity: 30%;
 		
 	}
 
 	25%{
-		transform: scale3d(-0.8,-0.8,-0.8);
+		transform: scale3d(0.5,0.5,0.5);
+		opacity: 90%;
+
+
 	}
 
 	
 
 	50%{
-		transform: scale3d(-0.4,-0.4,-0.4);
+		transform: scale3d(1,1,1);
+		opacity: 30%;
 	}
 	75%{
-		transform: scale3d(0,0,0);
+		transform: scale3d(1.5,1.5,1.5);
+		opacity: 0%;
 	}
 	100%{
-		transform: scale3d(-0.4,-0.4,-0.4);
+		transform: scale3d(1,1,1);
+		opacity: 30%;
 	}
 }
 
