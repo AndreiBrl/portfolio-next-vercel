@@ -1,9 +1,12 @@
 /* Mobile Menu */
-var linha = document.querySelector('.linhaMenu1');
-linha.addEventListener("click", () => {
+var linha2 = document.querySelector('.linhaMenu2');
+var linha1 = document.querySelector('.linhaMenu1');
+var linha3 = document.querySelector('.linhaMenu3');
+linha3.addEventListener("click", () => {
 	
-	linha.classList.toggle('transforma');
-	linha.style.opacity='20%';
+	linha2.classList.toggle('transforma');
+	linha1.classList.toggle('transforma');
+	linha3.classList.toggle('transforma');
 
 })
 

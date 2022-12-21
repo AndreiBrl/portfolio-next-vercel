@@ -39,8 +39,8 @@ nav
 /* ---- MENU MOBILE ---- */
 
 .linhaMenu1, .linhaMenu2, .linhaMenu3{
-	border-top: 2px solid #2D2D2D;
-	width: 4%;
+	border-top: 5px solid #2D2D2D;
+	width: 10%;
 	
 	margin-left: 130%;
 	position: absolute;
@@ -54,14 +54,17 @@ nav
 }
 .transforma{
 	transform: rotateZ(90deg);
+
 }
 .linhaMenu2{
 	top: -310%;
 	opacity: 100%;
+	transition: all 0.5s;
 }
 .linhaMenu3{
 	top: -305%;
 	opacity: 100%;
+	transition: all 0.5s;
 }
 
 
@@ -461,9 +464,26 @@ top: 22%;
 	top: 8%;
 	width: 20%;
 }
-.linhaMenu1, .linhaMenu2, .linhaMenu3{
-	width: 50%;
-	border-top: 22px solid #2D2D2D;
+.linhaMenu1{
+	width: 15%;
+	border-top: 8px solid #2D2D2D;
+	top: -85%;
+	position: absolute;
+	left: -40%;
+}
+.linhaMenu2{
+	width: 15%;
+	border-top: 8px solid #2D2D2D;
+	top: -83%;
+	position: absolute;
+	left: -40%;
+}
+.linhaMenu3{
+	width: 15%;
+	border-top: 8px solid #2D2D2D;
+	top: -81%;
+	position: absolute;
+	left: -40%;
 }
 
 
@@ -486,17 +506,7 @@ top: 22%;
 }*/
 /* animando menu mobile */
 
-@keyframes menuMobile {
 
-	0%{
-		transform: rotateZ(0deg);
-	}
-	100%{
-		transform: rotateZ(90deg);
-
-	}
-	
-}
 @keyframes CuboMexe{
 	/* Cubo começa no meio de seu movimento*/
 	0%{
