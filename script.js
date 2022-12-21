@@ -1,3 +1,14 @@
+/* Mobile Menu */
+var linha = document.querySelector('.linhaMenu1');
+linha.addEventListener("click", () => {
+	
+	linha.classList.toggle('transforma');
+	linha.style.opacity='20%';
+
+})
+
+
+
 /* ---- DarkMode ----*/
 var lampadaAcesa = document.querySelector('.lampadaAcesa')
 var lampadaApagada = document.querySelector('.lampadaApagada')

@@ -36,6 +36,34 @@ nav
 
 	cores do bg = #FFD369,#EEEEEE,#2C3639,#5C5C5C
 }*/
+/* ---- MENU MOBILE ---- */
+
+.linhaMenu1, .linhaMenu2, .linhaMenu3{
+	border-top: 2px solid #2D2D2D;
+	width: 4%;
+	
+	margin-left: 130%;
+	position: absolute;
+
+}
+.linhaMenu1{
+	top: -315%;
+	opacity: 100%;
+	transition: all 0.5s;
+	
+}
+.transforma{
+	transform: rotateZ(90deg);
+}
+.linhaMenu2{
+	top: -310%;
+	opacity: 100%;
+}
+.linhaMenu3{
+	top: -305%;
+	opacity: 100%;
+}
+
 
 
 
@@ -47,14 +75,16 @@ html{
 	position: absolute;
 	right: 5%;
 	top: 4%;
-	width: 15%;
+	width: 10%;
+	cursor: pointer;
 }
 .lampadaApagada{
 	position: absolute;
 	right: 5%;
 	top: 4%;
-	width: 15%;
+	width: 10%;
 	visibility: hidden;
+	cursor: pointer;
 
 }
 input{
@@ -431,6 +461,10 @@ top: 22%;
 	top: 8%;
 	width: 20%;
 }
+.linhaMenu1, .linhaMenu2, .linhaMenu3{
+	width: 50%;
+	border-top: 22px solid #2D2D2D;
+}
 
 
 }
@@ -450,6 +484,19 @@ top: 22%;
 	
 
 }*/
+/* animando menu mobile */
+
+@keyframes menuMobile {
+
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(90deg);
+
+	}
+	
+}
 @keyframes CuboMexe{
 	/* Cubo começa no meio de seu movimento*/
 	0%{
