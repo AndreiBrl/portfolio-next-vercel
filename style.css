@@ -46,14 +46,14 @@ html{
 .lampadaAcesa {
 	position: absolute;
 	right: 5%;
-	top: -2%;
-	width: 3%;
+	top: 4%;
+	width: 15%;
 }
 .lampadaApagada{
 	position: absolute;
 	right: 5%;
-	top: -2%;
-	width: 3%;
+	top: 4%;
+	width: 15%;
 	visibility: hidden;
 
 }
@@ -427,7 +427,9 @@ top: 22%;
 	display: none;
 }
 .lampadaAcesa, .lampadaApagada{
-	width: 10%;
+	right: 2%;
+	top: 8%;
+	width: 20%;
 }
 
 
