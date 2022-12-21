@@ -3,13 +3,23 @@ var linha2 = document.querySelector('.linhaMenu2');
 var linha1 = document.querySelector('.linhaMenu1');
 var linha3 = document.querySelector('.linhaMenu3');
 var menu = document.querySelector('.menu');
+var btnGit = document.querySelector('.iconeGit img');
+var btnWpp = document.querySelector('.iconeWpp img');
+var btnLinkedin = document.querySelector('.iconeLinkedin img');
+
 linha3.addEventListener("click", () => {
+	
+
 	
 	linha2.classList.toggle('transforma');
 	linha1.classList.toggle('transforma');
 	linha3.classList.toggle('transforma');
 	menu.classList.toggle('aumentaMenu');	
-	linha3.style.visibility='visible';
+	btnGit.classList.toggle('movimentaBotaoGit');
+	btnWpp.classList.toggle('movimentaBotaoWpp');
+	btnLinkedin.classList.toggle('movimentaBotaoLinkedin');
+		
+
 
 })
 

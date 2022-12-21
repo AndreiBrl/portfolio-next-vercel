@@ -38,14 +38,16 @@ nav
 }*/
 /* ---- MENU MOBILE ---- */
 .menu{
+	backdrop-filter: blur(10px);
+
 	top: 0%;
 	width: 100%;
 	height: 8%;
-	background: blue;
+	background: transparent;
 	position: fixed;
 	transition: all 0.5s;
-	backdrop-filter: blur(10px);
-	opacity: 50%;
+	
+	
 }
 .aumentaMenu{
 	height: 30%;
@@ -79,7 +81,25 @@ nav
 	cursor: pointer;
 	transition: all 0.5s;
 }
+.movimentaBotaoGit{
+	
+	transform: translateY(50%);
+	visibility: visible;
 
+
+}
+.movimentaBotaoWpp{
+	
+	transform: translateY(220%);
+	visibility: visible;
+
+}
+.movimentaBotaoLinkedin{
+	
+	transform: translateY(350%);
+	visibility: visible;
+
+}
 
 
 
@@ -125,6 +145,8 @@ main{
 	margin-left:7%;
 	margin-bottom: 2%;
 	opacity: 90%;
+	transition: all 0.5s;
+	
 }
 .iconeGit img:hover {
 	opacity: 50%;
@@ -136,6 +158,8 @@ main{
 	margin-left:8%;
 	margin-bottom: 2.5%;
 	opacity: 90%;
+	transition: all 0.5s;
+	
 	
 }
 .iconeWpp img:hover {
@@ -144,6 +168,8 @@ main{
 .iconeLinkedin img{
 	width: 5.5%;
 	margin-left:8%;
+	transition: all 0.5s;
+	
 }
 .iconeLinkedin img:hover {
 	opacity: 50%;
@@ -154,6 +180,7 @@ main{
 	bottom: 15%;
 	position: fixed;
 	margin-top: 32%;
+	visibility: hidden;
 	/*animation: redes-sociais 2.5s ease-in-out;*/
 	
 	
@@ -454,25 +481,28 @@ main{
 
 .icones{
 	
-top: 22%;
+top:-10%;
+margin-left: 43%;
 
 }
 
 .iconeGit img {
-	width: 22%;
-	margin-left:6%;
+	width: 30%;
+	position: absolute;
 	
 	opacity: 80%;
 }
 .iconeWpp img{
-	width: 15.5%;
-	margin-left:8%;
+	margin-left: 10%;
+	width: 20%;
 	opacity: 80%;
+	position: absolute;
 	
 }
 .iconeLinkedin img{
-	width: 15%;
-	margin-left:8%;
+	margin-left: 10%;	
+	width: 20%;
+	
 	opacity: 80%;
 }
 .linhaVertical{
