@@ -7,7 +7,8 @@ var btnGit = document.querySelector('.iconeGit img');
 var btnWpp = document.querySelector('.iconeWpp img');
 var btnLinkedin = document.querySelector('.iconeLinkedin img');
 
-linha3.addEventListener("click", () => {
+
+menu.addEventListener("click", () => {
 	
 
 	
@@ -18,6 +19,8 @@ linha3.addEventListener("click", () => {
 	btnGit.classList.toggle('movimentaBotaoGit');
 	btnWpp.classList.toggle('movimentaBotaoWpp');
 	btnLinkedin.classList.toggle('movimentaBotaoLinkedin');
+	lampadaAcesa.classList.toggle('movimentaDarkMode');
+	lampadaApagada.classList.toggle('movimentaDarkMode');
 		
 
 

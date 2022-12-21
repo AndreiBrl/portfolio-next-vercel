@@ -45,7 +45,7 @@ nav
 	height: 8%;
 	background: transparent;
 	position: fixed;
-	transition: all 0.5s;
+	transition: all 1s;
 	
 	
 }
@@ -58,7 +58,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	padding-top: 2%;
-	transition: all 0.5s;
+	transition: all 1s;
 	margin-left: 50%;
 	
 }
@@ -71,7 +71,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	margin-left: 50%;
-	transition: all 0.5s;
+	transition: all 1s;
 }
 .linhaMenu3{
 	margin-left: 50%;
@@ -79,7 +79,7 @@ nav
 	margin-top: 2%;
 	width: 5%;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 1s;
 }
 .movimentaBotaoGit{
 	
@@ -97,6 +97,11 @@ nav
 .movimentaBotaoLinkedin{
 	
 	transform: translateY(350%);
+	visibility: visible;
+
+}
+.movimentaDarkMode{
+	transform: translateY(500%);
 	visibility: visible;
 
 }
@@ -118,6 +123,8 @@ html{
 	top: 4%;
 	width: 10%;
 	cursor: pointer;
+	transition: all 1s ease-in-out;
+	
 }
 .lampadaApagada{
 	margin-top: 100px;
@@ -125,7 +132,7 @@ html{
 	right: 5%;
 	top: 4%;
 	width: 10%;
-	visibility: hidden;
+	transition: all 1s ease-in-out;
 	cursor: pointer;
 
 }
@@ -145,7 +152,7 @@ main{
 	margin-left:7%;
 	margin-bottom: 2%;
 	opacity: 90%;
-	transition: all 0.5s;
+	transition: all 1s;
 	
 }
 .iconeGit img:hover {
@@ -158,7 +165,7 @@ main{
 	margin-left:8%;
 	margin-bottom: 2.5%;
 	opacity: 90%;
-	transition: all 0.5s;
+	transition: all 1s;
 	
 	
 }
@@ -168,7 +175,7 @@ main{
 .iconeLinkedin img{
 	width: 5.5%;
 	margin-left:8%;
-	transition: all 0.5s;
+	transition: all 1s;
 	
 }
 .iconeLinkedin img:hover {
@@ -180,7 +187,7 @@ main{
 	bottom: 15%;
 	position: fixed;
 	margin-top: 32%;
-	visibility: hidden;
+	
 	/*animation: redes-sociais 2.5s ease-in-out;*/
 	
 	
@@ -483,6 +490,7 @@ main{
 	
 top:-10%;
 margin-left: 43%;
+visibility: hidden;
 
 }
 
@@ -509,9 +517,13 @@ margin-left: 43%;
 	display: none;
 }
 .lampadaAcesa, .lampadaApagada{
-	right: 2%;
-	top: 8%;
+	right: 37%;
+	top: 3%;
 	width: 20%;
+	
+}
+.botaoDarkMode{
+	visibility: hidden;
 }
 .linhaMenu1{
 	margin-top: 4%;
