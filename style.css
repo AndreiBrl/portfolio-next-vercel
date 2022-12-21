@@ -108,7 +108,11 @@ nav
 	visibility: visible;
 
 }
+.movimentaLightMode{
+	transform: translateY(500%);
+	visibility: hidden;
 
+}
 
 
 /* ------ MAIN-----*/
@@ -131,7 +135,7 @@ html{
 }
 .lampadaApagada{
 	margin-top: 100px;
-	position: fixed;
+	position: fixed	;
 	right: 5%;
 	top: 4%;
 	width: 10%;
