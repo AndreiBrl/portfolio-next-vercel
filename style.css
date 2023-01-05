@@ -45,7 +45,7 @@ nav
 	width: 15%;
 	height: 8%;
 	position: fixed;
-	transition: all 1s ease-in-out;
+	transition: all 0s ease-in-out;
 	opacity: 50%;
 	visibility: hidden;
 	
@@ -61,7 +61,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	padding-top: 2%;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	margin-left: 50%;
 	
 }
@@ -74,7 +74,7 @@ nav
 	border-top: 5px solid #2D2D2D;
 	width: 5%;
 	margin-left: 50%;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 .linhaMenu3{
 	margin-left: 50%;
@@ -82,7 +82,7 @@ nav
 	margin-top: 2%;
 	width: 5%;
 	cursor: pointer;
-	transition: all 1s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 .movimentaBotaoGit{
 	
@@ -150,7 +150,7 @@ main{
 	margin-left:7%;
 	margin-bottom: 2%;
 	opacity: 90%;
-	transition: all 1s;
+	transition: all 0.5s;
 	
 }
 .iconeGit img:hover {
@@ -163,7 +163,7 @@ main{
 	margin-left:8%;
 	margin-bottom: 2.5%;
 	opacity: 90%;
-	transition: all 1s;
+	transition: all 0.5s;
 	
 	
 }
@@ -173,7 +173,7 @@ main{
 .iconeLinkedin img{
 	width: 5.5%;
 	margin-left:8%;
-	transition: all 1s;
+	transition: all 0.5s;
 	
 }
 .iconeLinkedin img:hover {
@@ -409,7 +409,7 @@ main{
 	padding-top: 2%;
 	height: 25%;
 	width: 25%;
-	padding-left: 16%;
+	padding-left: 25%;
 	
 	
 }
@@ -422,14 +422,14 @@ main{
 
 .iconeCsharp {
 
-	padding-left: 47%;
+	padding-left: 10%;
 	width: 13%;
 	
 	
 }
 .iconeMySql{
 	padding-top: 2%;
-	padding-left: 5%;
+	padding-left: 30%;
 	width: 20%;
 	height: 20%;
 }
