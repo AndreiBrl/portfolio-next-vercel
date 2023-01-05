@@ -38,16 +38,16 @@ nav
 }*/
 /* ---- MENU MOBILE ---- */
 .menu{
-	backdrop-filter: blur(10px);
+	/*backdrop-filter: blur(10px);*/
 
 	top: 0%;
 	width: 100%;
 	height: 8%;
-	background: #FFD369;
+	/*background: #FFD369;*/
 	position: fixed;
 	transition: all 1s ease-in-out;
 	opacity: 50%;
-	
+	visibility: hidden;
 	
 	
 }
@@ -119,32 +119,23 @@ nav
 html{
 	scroll-behavior: smooth;
 }
-
-	
-	
-
 .lampadaAcesa {
+	position: absolute;
 	margin-top: 100px;
-	position:fixed;
 	right: 5%;
-	top: 4%;
+	top: 1%;
 	width: 10%;
 	cursor: pointer;
-	transition: all 1s ease-in-out;
-	
+	visibility: visible;
 }
 .lampadaApagada{
+	position: absolute;
 	margin-top: 100px;
-	position: fixed	;
 	right: 5%;
-	top: 4%;
+	top: 1%;
 	width: 10%;
-	transition: all 1s ease-in-out;
 	cursor: pointer;
-
-}
-input{
-	background-color: transparent;
+	visibility: hidden;
 }
 main{
 	/* --- background --- */
@@ -216,7 +207,7 @@ main{
 .perfilSessaoUm{
 	
 	width: 140%;
-		
+	padding-left: 25%;	
 	padding-top: 25%;
 }
 .botao{
@@ -256,6 +247,7 @@ main{
 		
 }
 .tituloSessao1{
+	padding-top: 7%;
 	padding-bottom: 0;
 	margin-bottom: 0;
 	margin-left: 10%;
@@ -451,8 +443,8 @@ main{
 }
 .perfilSessaoUm{
 	padding-top: 10%;
-	width: 90%;
-	margin-left: 4%;
+	width: 60%;
+	padding-right: 100%;
 	
 	
 }
@@ -496,7 +488,7 @@ main{
 .icones{
 	
 top:-10%;
-margin-left: 43%;
+margin-left: 22%;
 visibility: hidden;
 
 }
@@ -524,10 +516,14 @@ visibility: hidden;
 	display: none;
 }
 .lampadaAcesa, .lampadaApagada{
-	right: 37%;
-	top: 3%;
+	right: 3%;
+	top: 0%;
 	width: 20%;
 	
+	
+}
+.menu{
+	visibility: visible;
 }
 .botaoDarkMode{
 	visibility: hidden;
@@ -536,18 +532,18 @@ visibility: hidden;
 	margin-top: 4%;
 	width: 10%;
 	border-top: 8px solid #2D2D2D;
-	margin-left: 45%;
+	margin-left: 22%;
 		
 }
 .linhaMenu2{
 	width: 10%;
-	margin-left: 45%;
+	margin-left: 22%;
 	border-top: 8px solid #2D2D2D;
 
 }
 .linhaMenu3{
 	width: 10%;
-	margin-left: 45%;
+	margin-left: 22%;
 	border-top: 8px solid #2D2D2D;
 	
 }
