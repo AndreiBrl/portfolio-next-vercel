@@ -19,8 +19,7 @@ menu.addEventListener("click", () => {
 	btnGit.classList.toggle('movimentaBotaoGit');
 	btnWpp.classList.toggle('movimentaBotaoWpp');
 	btnLinkedin.classList.toggle('movimentaBotaoLinkedin');
-	lampadaAcesa.classList.toggle('movimentaDarkMode');
-	lampadaApagada.classList.toggle('movimentaLightMode');
+
 		
 
 

@@ -39,11 +39,11 @@ nav
 /* ---- MENU MOBILE ---- */
 .menu{
 	/*backdrop-filter: blur(10px);*/
+	/*background: #FFD369;*/
 
 	top: 0%;
 	width: 100%;
 	height: 8%;
-	/*background: #FFD369;*/
 	position: fixed;
 	transition: all 1s ease-in-out;
 	opacity: 50%;
@@ -488,7 +488,7 @@ main{
 .icones{
 	
 top:-10%;
-margin-left: 22%;
+margin-left: 2%;
 visibility: hidden;
 
 }
@@ -530,20 +530,20 @@ visibility: hidden;
 }
 .linhaMenu1{
 	margin-top: 4%;
-	width: 10%;
+	width: 8%;
 	border-top: 8px solid #2D2D2D;
-	margin-left: 22%;
+	margin-left: 2%;
 		
 }
 .linhaMenu2{
-	width: 10%;
-	margin-left: 22%;
+	width: 8%;
+	margin-left: 2%;
 	border-top: 8px solid #2D2D2D;
 
 }
 .linhaMenu3{
-	width: 10%;
-	margin-left: 22%;
+	width: 8%;
+	margin-left: 2%;
 	border-top: 8px solid #2D2D2D;
 	
 }
