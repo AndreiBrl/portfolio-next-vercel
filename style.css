@@ -42,7 +42,7 @@ nav
 	/*background: #FFD369;*/
 
 	top: 0%;
-	width: 100%;
+	width: 15%;
 	height: 8%;
 	position: fixed;
 	transition: all 1s ease-in-out;
@@ -443,9 +443,8 @@ main{
 }
 .perfilSessaoUm{
 	padding-top: 10%;
-	width: 60%;
-	padding-right: 100%;
-	
+	width: 70%;
+	margin-left: -5%;
 	
 }
 .tituloSessao1 h2{
@@ -453,11 +452,13 @@ main{
 	padding-top: 25%;
 	padding-left: 15%;
 
+
 }
 .tituloSessao1 h3{
 	padding-left: 15%;
 	font-size: 300%;
 	padding-bottom: 5%;
+	margin-bottom: 10%;
 }
 .iconeMeio img{
 	width: 30%;
@@ -488,7 +489,7 @@ main{
 .icones{
 	
 top:-10%;
-margin-left: 2%;
+margin-left: 1%;
 visibility: hidden;
 
 }
@@ -517,7 +518,7 @@ visibility: hidden;
 }
 .lampadaAcesa, .lampadaApagada{
 	right: 3%;
-	top: 0%;
+	top: -2%;
 	width: 20%;
 	
 	
@@ -529,21 +530,23 @@ visibility: hidden;
 	visibility: hidden;
 }
 .linhaMenu1{
-	margin-top: 4%;
-	width: 8%;
+	margin-top: 40%;
+	width: 60%;
 	border-top: 8px solid #2D2D2D;
-	margin-left: 2%;
+	margin-left: 25%;
+	margin-bottom: 10%;
 		
 }
 .linhaMenu2{
-	width: 8%;
-	margin-left: 2%;
+	width: 60%;
+	margin-left: 25%;
 	border-top: 8px solid #2D2D2D;
+	margin-bottom: 10%;
 
 }
 .linhaMenu3{
-	width: 8%;
-	margin-left: 2%;
+	width: 60%;
+	margin-left: 25%;
 	border-top: 8px solid #2D2D2D;
 	
 }
