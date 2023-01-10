@@ -6,6 +6,7 @@ var menu = document.querySelector('.menu');
 var btnGit = document.querySelector('.iconeGit img');
 var btnWpp = document.querySelector('.iconeWpp img');
 var btnLinkedin = document.querySelector('.iconeLinkedin img');
+var fundoIconesDark = document.querySelector('.fundoIconesDark')
 
 
 menu.addEventListener("click", () => {
@@ -19,7 +20,8 @@ menu.addEventListener("click", () => {
 	btnGit.classList.toggle('movimentaBotaoGit');
 	btnWpp.classList.toggle('movimentaBotaoWpp');
 	btnLinkedin.classList.toggle('movimentaBotaoLinkedin');
-
+	fundoIconesDark.classList.toggle('mudaFundoIconesDark')
+	
 		
 
 
@@ -33,19 +35,39 @@ var lampadaApagada = document.querySelector('.lampadaApagada')
 var perfil = document.querySelector('.perfilSessaoUm')
 var bg = document.querySelector('main')
 var tituloSessao1 = document.querySelector('.tituloSessao1 h2')
+var fundoIconesDark=document.querySelector('.fundoIconesDark')
+var sobreTitulo = document.querySelector('.sobre h2')
+var sobreParagrafo = document.querySelector('.sobre p')
+var projetosTitulo = document.querySelector('.projetos h2')
+var habilidadesTitulo = document.querySelector('.habilidades h2')
+
 function darkmode(){
+	
+	fundoIconesDark.classList.add('movimentaFundoIconesDark');
 	lampadaAcesa.style.visibility='hidden';
 	lampadaApagada.style.visibility='visible';
 	perfil.style.visibility='hidden';
 	bg.style.background='linear-gradient(to bottom ,#272c4f 0 40%  , #190c30 50% 100%)';
-	tituloSessao1.style.color='#fce6a2'
+	tituloSessao1.style.color='#fce6a2';
+	sobreTitulo.style.color='#fce6a2';
+	sobreParagrafo.style.color='#fce6a2';
+	projetosTitulo.style.color='#fce6a2';
+	habilidadesTitulo.style.color='#fce6a2';
+	
+
+	
 }
 function lightmode(){
+	fundoIconesDark.classList.remove('movimentaFundoIconesDark');
 	lampadaAcesa.style.visibility='visible';
 	lampadaApagada.style.visibility='hidden';
 	perfil.style.visibility='visible';
 	bg.style.background='linear-gradient(to bottom ,#FFD369 0 5%  , #fce6a2 12% 100% )';
 	tituloSessao1.style.color='#2D2D2D'
+	sobreTitulo.style.color='#333333';
+	sobreParagrafo.style.color='#333333';
+	projetosTitulo.style.color='#2D2D2D';
+	habilidadesTitulo.style.color='#2D2D2D';
 
 }
 

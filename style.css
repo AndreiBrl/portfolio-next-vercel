@@ -152,6 +152,7 @@ main{
 	opacity: 90%;
 	transition: all 0.5s;
 	
+	
 }
 .iconeGit img:hover {
 	opacity: 50%;
@@ -179,12 +180,33 @@ main{
 .iconeLinkedin img:hover {
 	opacity: 50%;
 }
+.fundoIconesDark{
+	left: 2.4%;
+	bottom: 0;
+	width: 0%;
+	position: fixed;
+	margin-top: 32%;
+	background-color:#fce6a2;
+	height: 38%;
+	border-top-left-radius: 70%;
+	border-top-right-radius: 70%;
+	opacity: 90%;
+	transition: all 0.5s ease-in-out;
+	
+}
+.movimentaFundoIconesDark{
+	
+	width: 3.5%;
+	
+	
+}
 .icones{
 	
 	left: 0;
 	bottom: 15%;
 	position: fixed;
 	margin-top: 32%;
+	
 	
 	/*animation: redes-sociais 2.5s ease-in-out;*/
 	
@@ -274,8 +296,10 @@ main{
 .iconeMeio img{
 	width: 10%;
 	padding-top: 5%;
+	
 	padding-bottom: 5%;
 	padding-left: 45%;
+	
 }
 
 .balao {
@@ -512,6 +536,38 @@ visibility: hidden;
 	width: 20%;
 	
 	opacity: 80%;
+}
+.fundoIconesDark{
+	left: 2.8%;
+	top: -10%;
+	width: 0%;
+	position: fixed;
+	background-color:#fce6a2;
+	height: 5%;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+	border-bottom-left-radius: 70%;
+	border-bottom-right-radius: 70%;
+	opacity: 90%;
+	transition: all 0.5s ease-in-out;
+	visibility: hidden;
+}
+.movimentaFundoIconesDark{
+	
+	width: 0%;
+	height: 0%;
+	
+	
+	
+}
+/* Classe criada para obedecer ao botao MENU*/
+.mudaFundoIconesDark{
+
+	width: 12%;
+	height: 20%;
+	visibility: visible;
+	
+	
 }
 .linhaVertical{
 	display: none;
