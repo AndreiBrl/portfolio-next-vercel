@@ -540,7 +540,7 @@ visibility: hidden;
 }
 .fundoIconesDark{
 	left: 2.8%;
-	top: -15%;
+	top: -18%;
 	width: 0%;
 	position: fixed;
 	background-color:#fce6a2;
@@ -565,7 +565,7 @@ visibility: hidden;
 .mudaFundoIconesDark{
 
 	width: 12%;
-	height: 25%;
+	height: 28%;
 	visibility: visible;
 	
 	
@@ -575,7 +575,7 @@ visibility: hidden;
 }
 .lampadaAcesa, .lampadaApagada{
 	right: 3%;
-	top: -2%;
+	top: 0;
 	width: 20%;
 	
 	
