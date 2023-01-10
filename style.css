@@ -591,7 +591,7 @@ visibility: hidden;
 	border-top: 8px solid #2D2D2D;
 	margin-left: 25%;
 	margin-bottom: 10%;
-		
+	transition: all 0.5s ease-in-out;
 }
 .linhaMenu2{
 	width: 60%;
@@ -599,14 +599,20 @@ visibility: hidden;
 	border-top: 8px solid #2D2D2D;
 	margin-bottom: 10%;
 
+	transition: all 0.5s ease-in-out;
+
 }
 .linhaMenu3{
 	width: 60%;
 	margin-left: 25%;
 	border-top: 8px solid #2D2D2D;
-	
+	transition: all 0.5s ease-in-out;
 }
+.mudaCorLinha{
+	border-top: 8px solid #fce6a2
+	
 
+}
 .habilidadesImagens{
 	display: flex;
 	

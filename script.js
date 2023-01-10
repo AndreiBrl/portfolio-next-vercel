@@ -53,6 +53,10 @@ function darkmode(){
 	sobreParagrafo.style.color='#fce6a2';
 	projetosTitulo.style.color='#fce6a2';
 	habilidadesTitulo.style.color='#fce6a2';
+	linha1.classList.add('mudaCorLinha');
+	linha2.classList.add('mudaCorLinha');
+	linha3.classList.add('mudaCorLinha');
+
 	
 
 	
@@ -68,6 +72,11 @@ function lightmode(){
 	sobreParagrafo.style.color='#333333';
 	projetosTitulo.style.color='#2D2D2D';
 	habilidadesTitulo.style.color='#2D2D2D';
+	linha1.classList.remove('mudaCorLinha');
+	linha2.classList.remove('mudaCorLinha');
+	linha3.classList.remove('mudaCorLinha');
+
+
 
 }
 
