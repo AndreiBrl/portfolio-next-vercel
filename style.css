@@ -188,8 +188,9 @@ main{
 	margin-top: 32%;
 	background-color:#fce6a2;
 	height: 38%;
-	border-top-left-radius: 70%;
-	border-top-right-radius: 70%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
 	opacity: 90%;
 	transition: all 0.5s ease-in-out;
 	
@@ -539,15 +540,15 @@ visibility: hidden;
 }
 .fundoIconesDark{
 	left: 2.8%;
-	top: -10%;
+	top: -15%;
 	width: 0%;
 	position: fixed;
 	background-color:#fce6a2;
 	height: 5%;
 	border-top-left-radius: 0%;
 	border-top-right-radius: 0%;
-	border-bottom-left-radius: 70%;
-	border-bottom-right-radius: 70%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 	opacity: 90%;
 	transition: all 0.5s ease-in-out;
 	visibility: hidden;
@@ -564,7 +565,7 @@ visibility: hidden;
 .mudaFundoIconesDark{
 
 	width: 12%;
-	height: 20%;
+	height: 25%;
 	visibility: visible;
 	
 	

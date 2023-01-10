@@ -56,6 +56,7 @@ function darkmode(){
 	linha1.classList.add('mudaCorLinha');
 	linha2.classList.add('mudaCorLinha');
 	linha3.classList.add('mudaCorLinha');
+	menu.style.opacity='80%'
 
 	
 
@@ -75,6 +76,7 @@ function lightmode(){
 	linha1.classList.remove('mudaCorLinha');
 	linha2.classList.remove('mudaCorLinha');
 	linha3.classList.remove('mudaCorLinha');
+	menu.style.opacity='50%'
 
 
 
