@@ -40,6 +40,9 @@ var sobreTitulo = document.querySelector('.sobre h2')
 var sobreParagrafo = document.querySelector('.sobre p')
 var projetosTitulo = document.querySelector('.projetos h2')
 var habilidadesTitulo = document.querySelector('.habilidades h2')
+var iconeMeio = document.querySelectorAll('.iconeMeio img')
+var iconeMeioFonteBranca = document.querySelectorAll('.iconeMeioFonteBranca img')
+console.log(iconeMeio);
 
 function darkmode(){
 	
@@ -57,6 +60,12 @@ function darkmode(){
 	linha2.classList.add('mudaCorLinha');
 	linha3.classList.add('mudaCorLinha');
 	menu.style.opacity='80%'
+	for (let i = 0; i < iconeMeio.length; i++) {
+		
+		iconeMeio[i].style.display='none';
+		iconeMeioFonteBranca[i].style.display='inline';
+		
+	}
 
 	
 
@@ -77,6 +86,12 @@ function lightmode(){
 	linha2.classList.remove('mudaCorLinha');
 	linha3.classList.remove('mudaCorLinha');
 	menu.style.opacity='50%'
+	for (let i = 0; i < iconeMeio.length; i++) {
+		
+		iconeMeio[i].style.display='inline';
+		iconeMeioFonteBranca[i].style.display='none';
+		
+	}
 
 
 

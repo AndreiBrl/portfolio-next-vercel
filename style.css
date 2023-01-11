@@ -301,8 +301,18 @@ main{
 	padding-bottom: 5%;
 	padding-left: 45%;
 	
+	
+	
 }
+.iconeMeioFonteBranca img{
+	width: 10%;
+	padding-top: 5%;
+	
+	padding-bottom: 5%;
+	padding-left: 45%;
+	display: none;
 
+}
 .balao {
 	position: absolute;
 	top: 0%;
@@ -491,6 +501,13 @@ main{
 	padding-bottom: 20%;
 	padding-left: 35%;
 	
+}
+.iconeMeioFonteBranca img{
+	width: 30%;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	padding-left: 35%;
+
 }
 .botao, .sombra{
 	visibility: hidden;
