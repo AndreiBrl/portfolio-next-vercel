@@ -9,6 +9,7 @@ var btnLinkedin = document.querySelector('.iconeLinkedin img');
 var fundoIconesDark = document.querySelector('.fundoIconesDark')
 
 
+
 menu.addEventListener("click", () => {
 	
 
@@ -66,11 +67,9 @@ function darkmode(){
 		iconeMeioFonteBranca[i].style.display='inline';
 		
 	}
-
-	
-
 	
 }
+
 function lightmode(){
 	fundoIconesDark.classList.remove('movimentaFundoIconesDark');
 	lampadaAcesa.style.visibility='visible';
