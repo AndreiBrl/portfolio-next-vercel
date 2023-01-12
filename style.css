@@ -498,7 +498,7 @@ main{
 }
 .tituloSessao1 h3{
 	padding-left: 15%;
-	font-size: 300%;
+	font-size: 260%;
 	padding-bottom: 5%;
 	margin-bottom: 10%;
 }
@@ -524,6 +524,9 @@ main{
 }
 .sobre img{
 	display: none;
+}
+.sobre h4{
+	font-size: 80%;
 }
 .emBreve{
 	display: inline;

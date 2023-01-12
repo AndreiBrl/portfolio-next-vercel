@@ -87,7 +87,7 @@ function lightmode(){
 	menu.style.opacity='50%'
 	for (let i = 0; i < iconeMeio.length; i++) {
 		
-		iconeMeio[i].style.display='inline';
+		iconeMeio[i].style.display='block';
 		iconeMeioFonteBranca[i].style.display='none';
 		
 	}
