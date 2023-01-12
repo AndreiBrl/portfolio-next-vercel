@@ -41,8 +41,8 @@ var sobreTitulo = document.querySelector('.sobre h2')
 var sobreParagrafo = document.querySelector('.sobre p')
 var projetosTitulo = document.querySelector('.projetos h2')
 var habilidadesTitulo = document.querySelector('.habilidades h2')
-var iconeMeio = document.querySelectorAll('.iconeMeio img')
-var iconeMeioFonteBranca = document.querySelectorAll('.iconeMeioFonteBranca img')
+var iconeMeio = document.querySelectorAll('.iconeMeio h1')
+var iconeMeioFonteBranca = document.querySelectorAll('.iconeMeioFonteBranca h1')
 console.log(iconeMeio);
 
 function darkmode(){
@@ -64,7 +64,7 @@ function darkmode(){
 	for (let i = 0; i < iconeMeio.length; i++) {
 		
 		iconeMeio[i].style.display='none';
-		iconeMeioFonteBranca[i].style.display='inline';
+		iconeMeioFonteBranca[i].style.display='block';
 		
 	}
 	
