@@ -34,6 +34,7 @@ menu.addEventListener("click", () => {
 var lampadaAcesa = document.querySelector('.lampadaAcesa')
 var lampadaApagada = document.querySelector('.lampadaApagada')
 var perfil = document.querySelector('.perfilSessaoUm')
+var perfilPB = document.querySelector('.perfilPB')
 var bg = document.querySelector('main')
 var tituloSessao1 = document.querySelector('.tituloSessao1 h2')
 var fundoIconesDark=document.querySelector('.fundoIconesDark')
@@ -50,7 +51,8 @@ function darkmode(){
 	fundoIconesDark.classList.add('movimentaFundoIconesDark');
 	lampadaAcesa.style.visibility='hidden';
 	lampadaApagada.style.visibility='visible';
-	perfil.style.visibility='hidden';
+	perfil.style.display='none';
+	perfilPB.style.display='block';
 	bg.style.background='linear-gradient(to bottom ,#272c4f 0 40%  , #190c30 50% 100%)';
 	tituloSessao1.style.color='#fce6a2';
 	sobreTitulo.style.color='#fce6a2';
@@ -74,7 +76,8 @@ function lightmode(){
 	fundoIconesDark.classList.remove('movimentaFundoIconesDark');
 	lampadaAcesa.style.visibility='visible';
 	lampadaApagada.style.visibility='hidden';
-	perfil.style.visibility='visible';
+	perfil.style.display='block';
+	perfilPB.style.display='none';
 	bg.style.background='linear-gradient(to bottom ,#FFD369 0 5%  , #fce6a2 12% 100% )';
 	tituloSessao1.style.color='#2D2D2D'
 	sobreTitulo.style.color='#333333';
