@@ -269,6 +269,24 @@ main{
 	font-family: Instru;
 	
 }
+.perfilPBMobile{
+	margin-top: 10%;
+	background-color:#bcbcd63a;
+    padding-left: 15%;
+    padding-right: 15%;
+	background-image: url(img/teste.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	-webkit-background-clip: text;
+	color: transparent;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	display: none;
+	font-family: Instru;
+	
+}
 
 
 .botao{
@@ -512,9 +530,15 @@ main{
 	
 }
 .perfilPB{
-	width: 80%;
-	font-size: 15px;
+	width:60%;
+	padding-left: 20%;
+	font-size: 14px;
 }
+
+.perfilPBMobile{
+ display: none;
+}
+
 .tituloSessao1 h2{
 	font-size: 600%;
 	padding-top: 25%;
