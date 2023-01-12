@@ -304,10 +304,11 @@ main{
 
 }
 .tituloSessao1 h3{
-	font-family: Instru;
-	font-size: 190%;
+	font-family: Kontanter;
+	font-size: 120%;
 	color: #C84B31;
 	padding-left: 30%;
+	letter-spacing: 10px;
 }
 
 .iconeMeio img{
@@ -342,9 +343,10 @@ main{
 }
 
 .sobre h4{
-	font-family: Instru;
-	font-size: 150%;
+	font-family: Kontanter;
+	font-size: 120%;
 	color: #C84B31;
+	letter-spacing: 10px;
 	
 	padding-left: 20%;
 
@@ -375,10 +377,10 @@ main{
 	padding-bottom: 8%;
 }
 .projetos h4{
-	font-family: Instru;
-	font-size: 150%;
+	font-family: Kontanter;
+	font-size: 120%;
 	color: #C84B31;
-	
+	letter-spacing: 10px;
 	padding-left: 20%;
 
 }
@@ -420,9 +422,10 @@ main{
 }
 
 .habilidades h4{
-	font-family: Instru;
-	font-size: 150%;
+	font-family: Kontanter;
+	font-size: 120%;
 	color: #C84B31;
+	letter-spacing: 10px;
 	
 	padding-left: 20%;
 
