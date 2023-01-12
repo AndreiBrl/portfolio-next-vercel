@@ -282,7 +282,7 @@ main{
 
 	font-size: 450%;
 	font-family: Code Next ExtraBold;
-	src: url('fontes/CodeNext-ExtraBold.otf') format('opentype');
+	src: url('fontes/CodeNext-ExtraBold.otf') format('opentype'), url('fontes/CodeNext-ExtraBold.ttf') format('truetype');
 	color: #2D2D2D;
 	padding-top: 30%;
 	padding-left: 30%;
