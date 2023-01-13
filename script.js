@@ -1,3 +1,5 @@
+
+
 /* Mobile Menu */
 var linha2 = document.querySelector('.linhaMenu2');
 var linha1 = document.querySelector('.linhaMenu1');
@@ -21,7 +23,8 @@ menu.addEventListener("click", () => {
 	btnGit.classList.toggle('movimentaBotaoGit');
 	btnWpp.classList.toggle('movimentaBotaoWpp');
 	btnLinkedin.classList.toggle('movimentaBotaoLinkedin');
-	fundoIconesDark.classList.toggle('mudaFundoIconesDark')
+	fundoIconesDark.classList.toggle('mudaMenuFundoIconesDark')
+	
 	
 		
 
@@ -66,7 +69,7 @@ function darkmode(){
 	for (let i = 0; i < iconeMeio.length; i++) {
 		
 		iconeMeio[i].style.display='none';
-		iconeMeioFonteBranca[i].style.display='block';
+		iconeMeioFonteBranca[i].style.display='inline-block';
 		
 	}
 	
@@ -155,3 +158,16 @@ ScrollReveal().reveal('.iconeMeio',{
 	delay: 50
 });
 
+/* Text typing Effect */
+
+
+var typed = new Typed(".auto-type", {
+
+	strings: ["BARBUTO" , "DEV.","BARBA"],
+
+	typeSpeed: 130,
+
+	backSpeed: 130,
+
+	loop: true
+})

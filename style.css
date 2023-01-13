@@ -102,21 +102,21 @@ nav
 }
 .movimentaBotaoGit{
 	
-	transform: translateY(50%);
 	visibility: visible;
+	transform: translateY(50%);
 
 
 }
 .movimentaBotaoWpp{
 	
-	transform: translateY(220%);
 	visibility: visible;
+	transform: translateY(220%);
 
 }
 .movimentaBotaoLinkedin{
 	
-	transform: translateY(350%);
 	visibility: visible;
+	transform: translateY(350%);
 
 }
 .movimentaDarkMode{
@@ -209,9 +209,10 @@ main{
 	border-top-right-radius: 10px;
 	
 	opacity: 90%;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	
 }
+/*  Classe corresponde fundo de icones tela CHEIA*/
 .movimentaFundoIconesDark{
 	
 	width: 3.5%;
@@ -246,9 +247,10 @@ main{
 
 .perfilSessaoUm{
 	
-	width: 140%;
-	padding-left: 25%;	
+	width: 120%;
 	padding-top: 25%;
+	padding-left: 100%;
+	
 }
 .perfilPB{
 	margin-top: 10%;
@@ -262,7 +264,7 @@ main{
 	background-size: 50%;
 	-webkit-background-clip: text;
 	color: transparent;
-	width: 100%;
+	width: 40%;
 	font-size: 12px;
 	text-align: center;
 	display: none;
@@ -271,13 +273,12 @@ main{
 }
 .perfilPBMobile{
 	margin-top: 10%;
+	
 	background-color:#bcbcd63a;
-    padding-left: 15%;
-    padding-right: 15%;
 	background-image: url(img/teste.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 50%;
+	background-size: 45%;
 	-webkit-background-clip: text;
 	color: transparent;
 	width: 100%;
@@ -328,8 +329,9 @@ main{
 .tituloSessao1{
 	padding-top: 7%;
 	padding-bottom: 0;
+	
 	margin-bottom: 0;
-	margin-left: 10%;
+	width: 30%;
 	
 }
 
@@ -339,15 +341,16 @@ main{
 	font-size: 450%;
 	font-family: CodeNext;
 	color: #2D2D2D;
-	padding-top: 30%;
-	padding-left: 30%;
+	padding-top: 10%;
+	padding-left: 40%;
 
 }
 .tituloSessao1 h3{
 	font-family: Instru;
 	font-size: 190%;
 	color: #C84B31;
-	padding-left: 30%;
+	
+	padding-left: 40%;
 }
 
 .iconeMeio h1{
@@ -638,8 +641,8 @@ visibility: hidden;
 	
 	
 }
-/* Classe criada para obedecer ao botao MENU*/
-.mudaFundoIconesDark{
+/* Classe criada para obedecer ao botao MENU - Sem essa classe  o botao dark ativa a classe MovimentaFundoIconesDark*/
+.mudaMenuFundoIconesDark{
 
 	width: 12%;
 	height: 29%;
