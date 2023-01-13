@@ -618,7 +618,7 @@ visibility: hidden;
 .fundoIconesDark{
 	left: 2.8%;
 	top: -18%;
-	width: 0%;
+	width: 10%;
 	position: fixed;
 	background-color:#fce6a2;
 	height: 5%;
@@ -632,7 +632,7 @@ visibility: hidden;
 }
 .movimentaFundoIconesDark{
 	
-	width: 0%;
+	width: 10%;
 	height: 0%;
 	
 	
