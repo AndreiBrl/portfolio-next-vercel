@@ -544,7 +544,7 @@ main{
 
 .tituloSessao1 h2{
 	font-size: 500%;
-	padding-top: 25%;
+	padding-top: 50%;
 	padding-left: 110%;
 
 
@@ -556,17 +556,17 @@ main{
 	margin-bottom: 10%;
 }
 .iconeMeio h1{
-	font-size: 100%;
+	font-size: 200%;
 	padding-top: 20%;
 	padding-bottom: 20%;
-	padding-left: 37%;
+	padding-left: 40%;
 	
 }
 .iconeMeioFonteBranca h1{
-	font-size: 100%;
+	font-size: 200%;
 	padding-top: 20%;
 	padding-bottom: 20%;
-	padding-left: 37%;
+	padding-left: 40%;
 
 }
 .botao, .sombra{
