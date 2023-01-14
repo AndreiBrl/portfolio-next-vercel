@@ -163,7 +163,7 @@ ScrollReveal().reveal('.iconeMeio',{
 
 var typed = new Typed(".auto-type", {
 
-	strings: ["BARBUTO" , "DEV.","BARBA"],
+	strings: ["BARBUTO" ," ROMANELLI", "DEV."],
 
 	typeSpeed: 130,
 
