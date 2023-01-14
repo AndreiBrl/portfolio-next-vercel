@@ -167,7 +167,7 @@ var typed = new Typed(".auto-type", {
 
 	typeSpeed: 130,
 
-	backSpeed: 130,
+	backSpeed: 100,
 
 	loop: true
 })
