@@ -14,6 +14,11 @@
 	src: url('fontes/Kontanter-Bold.otf') format('opentype');
 	
 }
+@font-face {
+	font-family: Alice;
+	src: url('fontes/Alice_in_Wonderland_3.ttf') format('truetype');
+	
+}
 
 /*Code Next ExtraBold
 Instruction
@@ -374,12 +379,38 @@ main{
 	display: none;
 
 }
+
 .balao {
 	position: absolute;
 	top: 0%;
 	left: 65%;
+	height: 22%;
+	
+	visibility: hidden;
+
+}
+.textoCharada{
+	position: absolute;
+	top: 5.4%;
+	left: 66.8%;
 	height: 21%;
 	visibility: hidden;
+	font-family: Instru;
+	font-size: 80%;
+}
+.interrogacao{
+	position: absolute;
+	color: #0c781d;
+	top: 30%;
+	left: 66.8%;
+	height: 21%;
+	font-family: Alice;
+	font-size: 2080%;
+	opacity: 0;
+	transition: all 3s ease-in-out;
+}
+.opacidadeInterrogacao{
+	opacity: 70%;
 
 }
 .sobre{
@@ -571,7 +602,7 @@ main{
 	font-size: 250%;
 	padding-top: 20%;
 	padding-bottom: 20%;
-	padding-left: 40%;
+	padding-left: 38%;
 
 }
 .botao, .sombra{

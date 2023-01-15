@@ -104,10 +104,35 @@ function lightmode(){
 
 /* ----- Balao -------*/
 var balao = document.querySelector('.balao')
-
+var textoCharada =document.querySelector('.textoCharada')
+var interrogacao = document.querySelector('.interrogacao')
 
 	function mostra(){
 		balao.style.visibility= 'visible';
+		textoCharada.style.visibility='visible';
+		
+
+		var typed = new Typed(".textoCharada", {
+
+			strings: ["[MODO SECRETO ATIVADO]^2000 <br><br> Checking^500. ^500. ^500. ","Teste de Inteligência <br><br> iniciado","<br><br> ==> responda:"],
+		
+			typeSpeed: 130,
+		
+			backSpeed: -20,
+		
+			loop: false,
+
+				
+
+			
+		})
+		setTimeout(mostraInterrogacao,23000);
+		
+		function mostraInterrogacao(){
+			interrogacao.classList.toggle('opacidadeInterrogacao')
+		}
+
+
 		
 	}
 
