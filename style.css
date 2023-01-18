@@ -394,28 +394,19 @@ main{
 	top: 0%;
 	left: 65%;
 	height: 22%;
-	
-	visibility: hidden;
+	transition: all 1s ease-in-out;
+	opacity: 0%;
 
 }
 .modoSecreto{
 	position: absolute;
 	top: 5.4%;
-	left: 66.5%;
+	left: 66.4%;
 	height: 21%;
-	visibility: hidden;
+	opacity: 0;
 	font-family: dogica;
 	font-size: 48%;
-	
-}
-.reacaoResposta{
-	position: absolute;
-	top: 5.4%;
-	left: 66.5%;
-	height: 21%;
-	visibility: hidden;
-	font-family: dogica;
-	font-size: 48%;
+	transition: all 1s ease-in-out;
 	
 }
 .interrogacao{
@@ -435,9 +426,10 @@ main{
 	top: 35.4%;
 	left: 20%;
 	height: 21%;
-	visibility: hidden;
+	opacity: 0%;
 	font-family: Instru;
 	font-size: 100%;
+	transition: all 1s ease-in-out;
 	
 }
 .entradaUsuario{
@@ -450,10 +442,9 @@ main{
 	font-family: Instru;
 	font-size: 80%;
 	width: 13%;
-	resize: vertical;
+	resize: horizontal;
 	border-radius: 7px;
 	transition: all 1s ease-in-out;
-	cursor: pointer;
 	opacity: 0%;
 	display: none;
 }
@@ -470,28 +461,35 @@ main{
 	cursor: pointer;
 	opacity: 0%;
 }
-.opacidadeBtnCharadaEntradaUsuario{
-	opacity: 100%;
-	display: inline-block;
-}
 .downloadIcon{
-
+	display: none;
 	position: absolute;
 	top: 82%;
 	left: 38.7%;
-	transition: all 1s ease-in-out;
+	transition: all 2s ease-in-out;
 	width: 18%;
 	cursor: pointer;
-
+	opacity: 0%;
+	
 	
 }
+.movimentaDownloadIcon{
+	
+	top: 7.5%;
+	left: 33%;
+	width: 15%;
+}
 
-
-/* fim charada*/
-.opacidadeInterrogacao{
-	opacity: 50%;
+.opacidadeFull{
+	opacity: 100%;
 
 }
+	.opacidadeInterrogacao{
+		opacity: 50%;
+	
+	}
+
+/* fim charada*/
 .sobre{
 	vertical-align: top;
 }

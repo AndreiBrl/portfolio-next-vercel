@@ -110,8 +110,8 @@ var modoSecreto =document.querySelector('.modoSecreto')
 var interrogacao = document.querySelector('.interrogacao')
 var textoCharada = document.querySelector('.textoCharada')
 var entradaUsuario = document.querySelector('.entradaUsuario')
-var reacaoResposta = document.querySelector('.reacaoResposta')
 var btnCharada = document.querySelector('.btnCharada')
+var downloadIcon = document.querySelector('.downloadIcon')
 var flag =0;
 
 	function mostra(){
@@ -119,8 +119,8 @@ var flag =0;
 				
 				flag++;
 				
-				balao.style.visibility= 'visible';
-				modoSecreto.style.visibility='visible';
+				balao.classList.add('opacidadeFull');
+				modoSecreto.classList.add('opacidadeFull');
 				
 				
 			
@@ -141,15 +141,15 @@ var flag =0;
 				
 				onComplete: (self)=>{
 					
-					interrogacao.classList.toggle('opacidadeInterrogacao');
+					interrogacao.classList.add('opacidadeInterrogacao');
 					sobreParagrafo.classList.add('opacidadeSobreParagrafo');
 
-					textoCharada.style.visibility='visible';
+					textoCharada.classList.add('opacidadeFull');
 					var typedTextoCharada = new Typed(".textoCharada", {
 					
-					strings: [" ^1500 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
+					strings: [" ^1000 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
 					
-					typeSpeed: 30,
+					typeSpeed: 10,
 					
 					backSpeed: 0,
 					
@@ -160,10 +160,14 @@ var flag =0;
 					onComplete: (self)=>{
 						
 						typedModoSecreto.destroy();
-						entradaUsuario.classList.add('opacidadeBtnCharadaEntradaUsuario');
-						btnCharada.classList.add('opacidadeBtnCharadaEntradaUsuario');
-						
-						
+						entradaUsuario.style.display='inline-block';
+						btnCharada.style.display='inline-block';
+						setTimeout(() => {
+							entradaUsuario.classList.add('opacidadeFull');
+							btnCharada.classList.add('opacidadeFull');
+							
+							
+						}, 1000);
 
 					}
 					
@@ -184,11 +188,11 @@ var flag =0;
 	function resposta(){
 		
 		
-		if(entradaUsuario.value=="ANAO"){
+		if(entradaUsuario.value=="1"){
 			
 			var typed = new Typed(".modoSecreto", {
 
-				strings: ["^1000 = > ACERTOU! ^5000"],
+				strings: ["^1000 = > ACERTOU! ^1000", "^1000 DOWNLOAD DO CURRÍCULO <br><br> . . . LIBERADO . . . ^300"],
 			
 				typeSpeed: 50,
 			
@@ -201,6 +205,11 @@ var flag =0;
 				showCursor: false,
 
 				onComplete: (self)=>{
+					downloadIcon.style.display='inline-block';
+					setTimeout(() => {
+						
+						downloadIcon.classList.add('opacidadeFull');
+					}, 500);
 					typed.destroy();
 				
 				
@@ -243,11 +252,27 @@ var flag =0;
 
 		}
 	}
+
+function transformaIconeDl(){
+	setTimeout(() => {
+	interrogacao.classList.remove('opacidadeInterrogacao');
+	textoCharada.classList.remove('opacidadeFull');
+	btnCharada.style.display='none';
+	entradaUsuario.style.display='none';
+	
+		sobreParagrafo.classList.remove('opacidadeSobreParagrafo');
+		downloadIcon.classList.add('movimentaDownloadIcon');
+		balao.classList.remove('opacidadeFull');
+		modoSecreto.classList.remove('opacidadeFull');
+		interrogacao.classList.remove('opacidadeInterrogacao');
+		sobreParagrafo.classList.remove('opacidadeSobreParagrafo');
+	}, 2000);
+}
 	
 
+	/* ---- Scroll smooth reveal ---- */
 window.sr = ScrollReveal({reset:false});
 
-/* ---- Scroll smooth reveal ---- */
 
 ScrollReveal().reveal('.tituloSessao1',{
 
