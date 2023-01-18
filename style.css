@@ -160,7 +160,10 @@ nav
 	cursor: pointer;
 	visibility: hidden;
 }
+
 /* ------ MAIN-----*/
+
+@media screen and (min-width: 980px){
 html{
 	scroll-behavior: smooth;
 
@@ -612,6 +615,8 @@ main{
 	padding-left: 30%;
 	width: 20%;
 	height: 20%;
+}
+
 }
 /*---------- RESPONSIVIDADE ---------*/
 
