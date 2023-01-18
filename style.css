@@ -5,6 +5,11 @@
 	
 }
 @font-face {
+	font-family: dogica;
+	src: url('fontes/dogica.otf') format('opentype'), url('fontes/dogica.ttf') format('truetype');
+	
+}
+@font-face {
 	font-family: Instru;
 	src: url('fontes/Instruction.otf') format('opentype');
 }
@@ -136,10 +141,6 @@ nav
 }
 
 
-/* ------ MAIN-----*/
-html{
-	scroll-behavior: smooth;
-}
 /* --- DARK MODE ---*/
 .lampadaAcesa {
 	position: absolute;
@@ -158,6 +159,11 @@ html{
 	width: 10%;
 	cursor: pointer;
 	visibility: hidden;
+}
+/* ------ MAIN-----*/
+html{
+	scroll-behavior: smooth;
+
 }
 main{
 	/* --- background --- */
@@ -379,7 +385,7 @@ main{
 	display: none;
 
 }
-
+/* charada */
 .balao {
 	position: absolute;
 	top: 0%;
@@ -389,14 +395,24 @@ main{
 	visibility: hidden;
 
 }
-.textoCharada{
+.modoSecreto{
 	position: absolute;
 	top: 5.4%;
-	left: 66.8%;
+	left: 66.5%;
 	height: 21%;
 	visibility: hidden;
-	font-family: Instru;
-	font-size: 80%;
+	font-family: dogica;
+	font-size: 48%;
+}
+.reacaoResposta{
+	position: absolute;
+	top: 5.4%;
+	left: 66.5%;
+	height: 21%;
+	visibility: hidden;
+	font-family: dogica;
+	font-size: 48%;
+
 }
 .interrogacao{
 	position: absolute;
@@ -407,10 +423,54 @@ main{
 	font-family: Alice;
 	font-size: 2080%;
 	opacity: 0;
-	transition: all 3s ease-in-out;
+	transition: all 5s ease-in-out;
 }
+
+.textoCharada{
+	position: absolute;
+	top: 35.4%;
+	left: 20%;
+	height: 21%;
+	visibility: hidden;
+	font-family: Instru;
+	font-size: 100%;
+}
+.entradaUsuario{
+	top: 55.4%;
+	left: 20%;
+	position:absolute;
+	background-color: black;
+	padding: 24px;
+	color: #0c781d;
+	font-family: Instru;
+	font-size: 80%;
+	width: 13%;
+	resize: vertical;
+	border-radius: 7px;
+	transition: all 1s ease-in-out;
+	visibility: hidden;
+	opacity: 0%;
+}
+.entradaUsuario:focus{
+	width: 40%;
+}
+.btnCharada{
+	position: absolute;
+	top: 70.4%;
+	left: 40.5%;
+	font-family: Instru;
+	visibility: hidden;
+	transition: all 1s ease-in-out;
+	opacity: 0%;
+}
+.opacidadeBtnCharadaEntradaUsuario{
+	visibility: visible;
+	opacity: 100%;
+}
+
+/* fim charada*/
 .opacidadeInterrogacao{
-	opacity: 70%;
+	opacity: 50%;
 
 }
 .sobre{
@@ -443,6 +503,10 @@ main{
 	
 	padding-right: 15%;
 	font-family: Instru;
+	transition: all 1s ease-in-out;
+}
+.opacidadeSobreParagrafo{
+	opacity: 0;
 }
 .sobre img{
 	width: 15%;
@@ -843,7 +907,7 @@ visibility: hidden;
 
 /*
 
-Animação botões da esquerda 
+Animação botões da esquerda  inativa
 
 @keyframes redes-sociais {
 

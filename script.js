@@ -47,7 +47,7 @@ var projetosTitulo = document.querySelector('.projetos h2')
 var habilidadesTitulo = document.querySelector('.habilidades h2')
 var iconeMeio = document.querySelectorAll('.iconeMeio h1')
 var iconeMeioFonteBranca = document.querySelectorAll('.iconeMeioFonteBranca h1')
-console.log(iconeMeio);
+
 
 function darkmode(){
 	
@@ -60,6 +60,7 @@ function darkmode(){
 	tituloSessao1.style.color='#fce6a2';
 	sobreTitulo.style.color='#fce6a2';
 	sobreParagrafo.style.color='#fce6a2';
+	textoCharada.style.color='#fce6a2';
 	projetosTitulo.style.color='#fce6a2';
 	habilidadesTitulo.style.color='#fce6a2';
 	linha1.classList.add('mudaCorLinha');
@@ -85,6 +86,7 @@ function lightmode(){
 	tituloSessao1.style.color='#2D2D2D'
 	sobreTitulo.style.color='#333333';
 	sobreParagrafo.style.color='#333333';
+	textoCharada.style.color='#333333';
 	projetosTitulo.style.color='#2D2D2D';
 	habilidadesTitulo.style.color='#2D2D2D';
 	linha1.classList.remove('mudaCorLinha');
@@ -102,39 +104,128 @@ function lightmode(){
 
 }
 
-/* ----- Balao -------*/
+/* ----- Charada -------*/
 var balao = document.querySelector('.balao')
-var textoCharada =document.querySelector('.textoCharada')
+var modoSecreto =document.querySelector('.modoSecreto')
 var interrogacao = document.querySelector('.interrogacao')
-
+var textoCharada = document.querySelector('.textoCharada')
+var entradaUsuario = document.querySelector('.entradaUsuario')
+var reacaoResposta = document.querySelector('.reacaoResposta')
+var btnCharada = document.querySelector('.btnCharada')
+var flag =0;
 	function mostra(){
-		balao.style.visibility= 'visible';
-		textoCharada.style.visibility='visible';
-		
+			if(flag=='0'){
+				
+				flag++;
+				
+				balao.style.visibility= 'visible';
+				modoSecreto.style.visibility='visible';
+				
+				
+			
+			
+			var typedModoSecreto = new Typed(".modoSecreto", {
+				
+				strings: [" ^1000 <br>[MODO SECRETO ATIVADO] ^1000",". EXPERIMENTO MENTAL <br><br><br>  . . . INICIADO . . . ^1000","<br><br> . . . RESPONDA:^3000"],
+				
+				typeSpeed: 50,
+				
+				backSpeed: 0,
+				
+				loop: false,
+				
+				loopCount: 1,
+				
+				onComplete: (self)=>{
+					
+					interrogacao.classList.toggle('opacidadeInterrogacao');
+					sobreParagrafo.classList.add('opacidadeSobreParagrafo');
 
-		var typed = new Typed(".textoCharada", {
+					textoCharada.style.visibility='visible';
+					var typedTextoCharada = new Typed(".textoCharada", {
+					
+					strings: [" ^1000 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
+					
+					typeSpeed: 50,
+					
+					backSpeed: 0,
+					
+					loop: false	,	
+					
+					onComplete: (self)=>{
+						
+						typedModoSecreto.destroy();
+						entradaUsuario.classList.add('opacidadeBtnCharadaEntradaUsuario');
+						btnCharada.classList.add('opacidadeBtnCharadaEntradaUsuario');
+						
+						
 
-			strings: ["[MODO SECRETO ATIVADO]^2000 <br><br> Checking^500. ^500. ^500. ","Teste de Inteligência <br><br> iniciado","<br><br> ==> responda:"],
+					}
+					
+				})
+
+				}
+				
+			})
+			
+			
+			
+			
+			
 		
-			typeSpeed: 130,
+			}
+
+		}
+	function resposta(){
 		
-			backSpeed: -20,
 		
-			loop: false,
+		if(entradaUsuario.value=="ANAO"){
+			
+			var typed = new Typed(".modoSecreto", {
+
+				strings: ["^1000 Acertou!"],
+			
+				typeSpeed: 50,
+			
+				backSpeed: 0,
+			
+				loop: false,
+
+				loopCount: 1
 
 				
+			})
+			setTimeout(()=>{
+				typed.destroy();
 
+			},3000)
 			
-		})
-		setTimeout(mostraInterrogacao,23000);
-		
-		function mostraInterrogacao(){
-			interrogacao.classList.toggle('opacidadeInterrogacao')
+
 		}
+		else{
+			var typed = new Typed(".modoSecreto", {
 
+				strings: ["^1000 <br><br>  = >  EROU!!"],
+			
+				typeSpeed: 50,
+			
+				backSpeed: 0,
+			
+				loop: false,
 
-		
+				
+				
+			})
+			setTimeout(()=>{
+				typed.destroy();
+
+			},5000)
+			
+			
+
+		}
 	}
+	
 
 window.sr = ScrollReveal({reset:false});
 
