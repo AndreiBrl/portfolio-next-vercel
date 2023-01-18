@@ -113,6 +113,7 @@ var entradaUsuario = document.querySelector('.entradaUsuario')
 var reacaoResposta = document.querySelector('.reacaoResposta')
 var btnCharada = document.querySelector('.btnCharada')
 var flag =0;
+
 	function mostra(){
 			if(flag=='0'){
 				
@@ -126,15 +127,17 @@ var flag =0;
 			
 			var typedModoSecreto = new Typed(".modoSecreto", {
 				
-				strings: [" ^1000 <br>[MODO SECRETO ATIVADO] ^1000",". EXPERIMENTO MENTAL <br><br><br>  . . . INICIADO . . . ^1000","<br><br> . . . RESPONDA:^3000"],
+				strings: [" ^1000 <br>[MODO SECRETO ATIVADO] ^1000",". EXPERIMENTO MENTAL <br><br><br>  . . . INICIADO . . . ^1000","<br><br> . . . RESPONDA:^1000"],
 				
-				typeSpeed: 50,
+				typeSpeed: 30,
 				
 				backSpeed: 0,
 				
 				loop: false,
 				
 				loopCount: 1,
+
+				showCursor: false,
 				
 				onComplete: (self)=>{
 					
@@ -144,13 +147,15 @@ var flag =0;
 					textoCharada.style.visibility='visible';
 					var typedTextoCharada = new Typed(".textoCharada", {
 					
-					strings: [" ^1000 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
+					strings: [" ^1500 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
 					
-					typeSpeed: 50,
+					typeSpeed: 30,
 					
 					backSpeed: 0,
 					
 					loop: false	,	
+
+					showCursor: false,
 					
 					onComplete: (self)=>{
 						
@@ -183,7 +188,7 @@ var flag =0;
 			
 			var typed = new Typed(".modoSecreto", {
 
-				strings: ["^1000 Acertou!"],
+				strings: ["^1000 = > ACERTOU! ^5000"],
 			
 				typeSpeed: 50,
 			
@@ -191,21 +196,28 @@ var flag =0;
 			
 				loop: false,
 
-				loopCount: 1
+				loopCount: 1,
+
+				showCursor: false,
+
+				onComplete: (self)=>{
+					typed.destroy();
+				
+				
+
+			}
+				
 
 				
 			})
-			setTimeout(()=>{
-				typed.destroy();
 
-			},3000)
 			
 
 		}
 		else{
 			var typed = new Typed(".modoSecreto", {
 
-				strings: ["^1000 <br><br>  = >  EROU!!"],
+				strings: ["^1000 <br><br>  = >  EROU!! ^5000"],
 			
 				typeSpeed: 50,
 			
@@ -213,13 +225,19 @@ var flag =0;
 			
 				loop: false,
 
+				showCursor: false,
+
+				onComplete: (self)=>{
+					typed.destroy();
+				
+				
+
+			}
+
 				
 				
 			})
-			setTimeout(()=>{
-				typed.destroy();
 
-			},5000)
 			
 			
 
@@ -286,4 +304,6 @@ var typed = new Typed(".auto-type", {
 	backSpeed: 100,
 
 	loop: true
+
+	
 })

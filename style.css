@@ -406,6 +406,7 @@ main{
 	visibility: hidden;
 	font-family: dogica;
 	font-size: 48%;
+	
 }
 .reacaoResposta{
 	position: absolute;
@@ -415,7 +416,7 @@ main{
 	visibility: hidden;
 	font-family: dogica;
 	font-size: 48%;
-
+	
 }
 .interrogacao{
 	position: absolute;
@@ -437,9 +438,10 @@ main{
 	visibility: hidden;
 	font-family: Instru;
 	font-size: 100%;
+	
 }
 .entradaUsuario{
-	top: 55.4%;
+	top: 60%;
 	left: 20%;
 	position:absolute;
 	background-color: black;
@@ -451,25 +453,39 @@ main{
 	resize: vertical;
 	border-radius: 7px;
 	transition: all 1s ease-in-out;
-	visibility: hidden;
+	cursor: pointer;
 	opacity: 0%;
+	display: none;
 }
 .entradaUsuario:focus{
-	width: 40%;
+	width: 38%;
 }
 .btnCharada{
+	display: none;
 	position: absolute;
-	top: 70.4%;
-	left: 40.5%;
+	top: 75%;
+	left: 38%;
 	font-family: Instru;
-	visibility: hidden;
 	transition: all 1s ease-in-out;
+	cursor: pointer;
 	opacity: 0%;
 }
 .opacidadeBtnCharadaEntradaUsuario{
-	visibility: visible;
 	opacity: 100%;
+	display: inline-block;
 }
+.downloadIcon{
+
+	position: absolute;
+	top: 82%;
+	left: 38.7%;
+	transition: all 1s ease-in-out;
+	width: 18%;
+	cursor: pointer;
+
+	
+}
+
 
 /* fim charada*/
 .opacidadeInterrogacao{
@@ -506,7 +522,7 @@ main{
 	
 	padding-right: 15%;
 	font-family: Instru;
-	transition: all 1s ease-in-out;
+	transition: all 2s ease-in-out;
 }
 .opacidadeSobreParagrafo{
 	opacity: 0;
@@ -908,6 +924,9 @@ visibility: hidden;
 .tituloSessao1,.perfilSessaoUm,.sobre,.projetos,.habilidades,.iconeMeio{
 	visibility: hidden;
 }
+
+
+
 
 
 /*
