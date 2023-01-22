@@ -576,6 +576,44 @@ main{
 
 
 }
+.habilidades{
+	display: block;
+}
+
+.listaHab{
+	display: flex;
+	margin-left: 20%;
+	margin-right: 8%;
+		
+	
+}
+.hab-1,.hab-2,.hab-3,.hab-4,.hab-5,.hab-6{
+	
+	
+	transition: all 0.2s ease-in-out;
+	border-style: solid;
+	border-color:#2D2D2D;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 12px;
+	font-size: 150%;
+	font-family: Instru;
+	color: #2D2D2D;
+	opacity: 90%;
+	
+}
+.hab-4,.hab-5,.hab-6{
+margin-bottom: 15%;
+
+}
+
+.hab-1:hover,.hab-2:hover,.hab-3:hover,.hab-4:hover,.hab-5:hover,.hab-6:hover{
+
+	padding: 14px;
+	
+	background-color: #C84B31 ;
+
+}
 
 .habilidades h4{
 	font-family: Kontanter;
@@ -593,42 +631,29 @@ main{
 	font-family: Instru	;
 	font-size: 350%;
 	color: #2D2D2D;
-	padding-bottom: 5%;
+	padding-bottom: 8%;
 	padding-left: 20%;
 
 
 }
-.habilidadesImagens{
-	display: flex;
+.textoHabilidades{
+	position: absolute;
+	font-size: 100%;
+	left: 60%;
+	font-family: Instru;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	align-items: center;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	padding: 8px;
+	border-radius: 4px;
+	color: #333333;
 	
 }
-.iconeCssHtmlJs  {
-	padding-top: 2%;
-	height: 25%;
-	width: 25%;
-	padding-left: 25%;
-	
-	
-}
-.iconeGitGitHub{
-	
-	width: 25%;
-
-
-}
-
-.iconeCsharp {
-
-	padding-left: 10%;
-	width: 13%;
-	
-	
-}
-.iconeMySql{
-	padding-top: 2%;
-	padding-left: 30%;
-	width: 20%;
-	height: 20%;
+.opacidadeZero{
+opacity: 0;
 }
 
 }
@@ -813,39 +838,6 @@ visibility: hidden;
 	
 
 }
-.habilidadesImagens{
-	display: flex;
-	
-}
-.iconeCssHtmlJs  {
-	padding-top: 2%;
-	height: 25%;
-	width: 45%;
-	padding-left:5%;
-	padding-right: 0%;
-	
-	
-}
-.iconeGitGitHub{
-	padding-left: 0;
-	width: 50%;
-
-
-}
-
-.iconeCsharp {
-
-	padding-left: 0;
-	width: 30%;
-	
-	
-}
-.iconeMySql{
-	padding-top: 2%;
-	padding-left: 15%;
-	width: 40%;
-	
-}
 }
 
 
@@ -977,4 +969,5 @@ Animação botões da esquerda  inativa
 	100%{
 		transform: translateY(0%);
 	}
-}*/
+}
+*/

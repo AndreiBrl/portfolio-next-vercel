@@ -253,6 +253,8 @@ var flag =0;
 		}
 	}
 
+
+
 function transformaIconeDl(){
 	setTimeout(() => {
 	interrogacao.classList.remove('opacidadeInterrogacao');
@@ -269,6 +271,123 @@ function transformaIconeDl(){
 	}, 2000);
 }
 	
+/* HABILIDADES 
+
+Criado uma funcao mouseover e mouseout para controle do cursor, timeOuts criados 
+utilização da classe de opacidade com transição.
+
+*/
+
+var hab1 = document.querySelector('.hab-1')
+var hab2 = document.querySelector('.hab-2')
+var hab3 = document.querySelector('.hab-3')
+var hab4 = document.querySelector('.hab-4')
+var hab5 = document.querySelector('.hab-5')
+var hab6 = document.querySelector('.hab-6')
+var textoHabilidades = document.querySelector('.textoHabilidades')
+
+hab1.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='Aprendi durante meu tecnólogo. <br><br> Hoje possuo um projeto de <br><br>calculadora nesta língua';
+		
+	}, 300);
+})
+hab1.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
+
+hab2.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='Este site é fruto dos meus estudos <br><br>nessas 3 linguagens. Gosto bastante <br><br>e tento sempre estudar para integrar<br><br> mais funcionalidades. ';
+		
+	}, 300);
+})
+hab2.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
+
+hab3.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='meu primeiro contato com programação <br><br>  Foi através desta, <br><br> Onde aprendi os conceitos basilares.';
+		
+	}, 300);
+})
+hab3.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
+
+hab4.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='Iniciei meu contato dentro de  sala,<br><br> Onde construí meu primeiro banco<br><br> Prentendo elaborar um projeto no futuro';
+		
+	}, 300);
+})
+hab4.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
+
+hab5.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='aprendi bastante com um curso do alura <br><br> Hoje faço uso diário da plataforma';
+		
+	}, 300);
+})
+hab5.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
+
+hab6.addEventListener('mouseover',()=>{
+	textoHabilidades.classList.add('opacidadeZero');
+	setTimeout(() => {
+		textoHabilidades.classList.remove('opacidadeZero');
+		textoHabilidades.innerHTML='Conheci a xamarin pela vontade de desenvolver <br><br>meu primeiro app em C# uma calculadora<br><br> ';
+		
+	}, 300);
+})
+hab6.addEventListener('mouseout',()=>{
+
+	textoHabilidades.classList.add('opacidadeZero');
+setTimeout(() => {
+	textoHabilidades.classList.remove('opacidadeZero');
+	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+}, 300);
+})
 
 	/* ---- Scroll smooth reveal ---- */
 window.sr = ScrollReveal({reset:false});
