@@ -745,13 +745,14 @@ opacity: 0;
 }
 .hab-4,.hab-5,.hab-6{
 
-	margin-bottom: 60%;
+	margin-bottom: 80%;
 }
 
 .textoHabilidades{
-	left: 20%;
-	top: 270%;
-	font-size: 300%;
+	left: 12%;
+	top: 280%;
+	right: 10%;
+	font-size: 250%;
 
 }
 
