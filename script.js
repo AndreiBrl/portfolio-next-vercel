@@ -288,6 +288,7 @@ var textoHabilidades = document.querySelector('.textoHabilidades')
 
 hab1.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
+	
 	setTimeout(() => {
 		
 		textoHabilidades.classList.remove('opacidadeZero');
@@ -325,7 +326,7 @@ hab3.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='meu primeiro contato com programação <br><br>  Foi através desta, <br><br> Onde aprendi os conceitos basilares.';
+		textoHabilidades.innerHTML='Meu primeiro contato com programação <br><br>  foi através desta, <br><br> Onde aprendi os conceitos basilares.';
 		
 	}, 300);
 })
@@ -342,7 +343,7 @@ hab4.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Iniciei meu contato dentro de  sala,<br><br> Onde construí meu primeiro banco<br><br> Prentendo elaborar um projeto no futuro';
+		textoHabilidades.innerHTML='Iniciei meu contato dentro de  sala,<br><br> onde construí meu primeiro banco.<br><br> Prentendo elaborar um projeto no futuro';
 		
 	}, 300);
 })
@@ -359,7 +360,7 @@ hab5.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='aprendi bastante com um curso do alura <br><br> Hoje faço uso diário da plataforma';
+		textoHabilidades.innerHTML='Aprendi bastante com um curso do alura.<br><br> Hoje faço uso diário da plataforma';
 		
 	}, 300);
 })
@@ -376,7 +377,7 @@ hab6.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Conheci a xamarin pela vontade de desenvolver <br><br>meu primeiro app em C# uma calculadora<br><br> ';
+		textoHabilidades.innerHTML='Conheci a Xamarin pela vontade de desenvolver <br><br>meu primeiro app em C# uma calculadora<br><br> ';
 		
 	}, 300);
 })

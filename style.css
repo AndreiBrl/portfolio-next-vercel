@@ -640,21 +640,18 @@ margin-bottom: 15%;
 	position: absolute;
 	font-size: 100%;
 	left: 60%;
-	font-family: Instru;
+	font-family: CodeNext;
 	transition: all 0.3s ease-in-out;
 	text-align: center;
-	align-items: center;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #333333;
-	padding: 8px;
-	border-radius: 4px;
-	color: #333333;
+	color:#333333;
 	
 }
 .opacidadeZero{
 opacity: 0;
+
+
 }
+
 
 }
 /*---------- RESPONSIVIDADE ---------*/
