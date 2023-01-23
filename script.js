@@ -385,7 +385,7 @@ hab6.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Conheci a Xamarin pela vontade de desenvolver meu primeiro app em C# uma calculadora';
+		textoHabilidades.innerHTML='Conheci a Xamarin pela vontade de desenvolver meu primeiro app em C# em breve adicionarei ao site';
 		
 	}, 300);
 })
@@ -394,7 +394,7 @@ hab6.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks que tenho contato';
 }, 300);
 })
 
