@@ -264,7 +264,9 @@ main{
 	
 	width: 120%;
 	padding-top: 25%;
+	opacity: 80%;
 	padding-left: 100%;
+	
 	
 }
 .perfilPB{
@@ -674,6 +676,7 @@ opacity: 0;
 	padding-top: 10%;
 	width: 70%;
 	padding-left: 12%;
+	
 
 	
 }
