@@ -736,6 +736,24 @@ opacity: 0;
 	padding-bottom: 15%;
 	margin-left: 25%;
 }
+.habilidades h2{
+	margin-bottom: 8%;
+}
+.hab-1,.hab-2,.hab-3,.hab-4,.hab-5,.hab-6{
+	font-size: 300%;
+	
+}
+.hab-4,.hab-5,.hab-6{
+
+	margin-bottom: 60%;
+}
+
+.textoHabilidades{
+	left: 20%;
+	top: 270%;
+	font-size: 300%;
+
+}
 
 .icones{
 	
@@ -840,6 +858,8 @@ visibility: hidden;
 	
 
 }
+
+
 }
 
 
