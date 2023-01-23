@@ -520,7 +520,7 @@ main{
 	padding-top: 5%;
 	padding-left: 20%;
 	line-height: 200%;
-	
+	text-align: left;
 	padding-right: 15%;
 	font-family: Instru;
 	transition: all 2s ease-in-out;

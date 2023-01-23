@@ -162,7 +162,7 @@ var flag =0;
 					textoCharada.classList.add('opacidadeFull');
 					var typedTextoCharada = new Typed(".textoCharada", {
 					
-					strings: [" ^500 Alguns dizem que já existo, outros que não.<br><br> Posso ser revolução ou destruição. <br><br> Sou um protótipo do que todos já possuem. <br><br>Quem sou eu?"],
+					strings: [" ^500 Alguns dizem que já existo, outros que não.<br><br> Posso ser revolução ou destruição. <br><br> Sou um protótipo de algo que todos já possuem. <br><br>Quem sou eu?"],
 					
 					typeSpeed: 10,
 					
@@ -205,8 +205,8 @@ var flag =0;
 		}
 	function resposta(){
 		
-		
-		if(entradaUsuario.value=="1"){
+		entradaUsuario.value = entradaUsuario.value.toUpperCase();
+		if(entradaUsuario.value=="INTELIGÊNCIA ARTIFICIAL" || entradaUsuario.value=="INTELIGENCIA ARTIFICIAL" || entradaUsuario.value=="IA"){
 			
 			var typed = new Typed(".modoSecreto", {
 
