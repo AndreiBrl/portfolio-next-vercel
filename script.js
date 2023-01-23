@@ -256,18 +256,8 @@ var flag =0;
 
 				onComplete: (self)=>{
 					typed.destroy();
-				
-				
-
 			}
-
-				
-				
 			})
-
-			
-			
-
 		}
 	}
 
@@ -310,7 +300,7 @@ hab1.addEventListener('mouseover',()=>{
 	setTimeout(() => {
 		
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Aprendi durante meu tecnólogo. <br><br> Hoje possuo um projeto de <br><br>calculadora nesta língua';
+		textoHabilidades.innerHTML='Aprendi durante meu tecnólogo. Hoje possuo um projeto de calculadora nesta língua';
 		
 	}, 300);
 })
@@ -319,7 +309,7 @@ hab1.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks  que tenho contato';
 }, 300);
 })
 
@@ -327,7 +317,7 @@ hab2.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Este site é fruto dos meus estudos nessas<br><br>3 linguagens. Estou sempre estudando para integrar<br><br> mais funcionalidades. ';
+		textoHabilidades.innerHTML='Este site é fruto dos meus estudos nessas 3 linguagens. Estou sempre estudando para integrar mais funcionalidades. ';
 		
 	}, 300);
 })
@@ -336,7 +326,7 @@ hab2.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks que tenho contato';
 }, 300);
 })
 
@@ -344,7 +334,7 @@ hab3.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Meu primeiro contato com programação <br><br>  foi através desta, <br><br> Onde aprendi os conceitos basilares.';
+		textoHabilidades.innerHTML='Meu primeiro contato com programação foi através desta, onde aprendi os conceitos basilares.';
 		
 	}, 300);
 })
@@ -353,7 +343,7 @@ hab3.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks que tenho contato';
 }, 300);
 })
 
@@ -361,7 +351,7 @@ hab4.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Iniciei meu contato dentro de  sala,<br><br> onde construí meu primeiro banco.<br><br> Prentendo elaborar um projeto no futuro';
+		textoHabilidades.innerHTML='Iniciei meu contato dentro de  sala, onde construí meu primeiro banco. Prentendo elaborar um projeto no futuro';
 		
 	}, 300);
 })
@@ -370,7 +360,7 @@ hab4.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks que tenho contato';
 }, 300);
 })
 
@@ -378,7 +368,7 @@ hab5.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Aprendi bastante com um curso do alura.<br><br> Hoje faço uso diário da plataforma';
+		textoHabilidades.innerHTML='Aprendi bastante com um curso do alura. Hoje faço uso diário da plataforma';
 		
 	}, 300);
 })
@@ -387,7 +377,7 @@ hab5.addEventListener('mouseout',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 setTimeout(() => {
 	textoHabilidades.classList.remove('opacidadeZero');
-	textoHabilidades.innerHTML='Linguagens e FrameWorks <br><br> que tenho contato';
+	textoHabilidades.innerHTML='Linguagens e FrameWorks que tenho contato';
 }, 300);
 })
 
@@ -395,7 +385,7 @@ hab6.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Conheci a Xamarin pela vontade de desenvolver <br><br>meu primeiro app em C# uma calculadora<br><br> ';
+		textoHabilidades.innerHTML='Conheci a Xamarin pela vontade de desenvolver meu primeiro app em C# uma calculadora';
 		
 	}, 300);
 })

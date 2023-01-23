@@ -641,11 +641,13 @@ margin-bottom: 15%;
 	position: absolute;
 	font-size: 100%;
 	left: 60%;
+	right: 20%;
 	font-family: CodeNext;
 	transition: all 0.3s ease-in-out;
 	text-align: center;
 	color:#333333;
 	letter-spacing: 1px;
+	line-height: 200%;
 	
 }
 .opacidadeZero{
@@ -756,7 +758,7 @@ opacity: 0;
 	left: 20%;
 	top: 280%;
 	
-	font-size: 150%;
+	font-size: 200%;
 	text-align: center;
 
 }
