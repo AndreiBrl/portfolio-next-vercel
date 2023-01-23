@@ -741,6 +741,8 @@ opacity: 0;
 }
 .hab-1,.hab-2,.hab-3,.hab-4,.hab-5,.hab-6{
 	font-size: 300%;
+	border-radius: 12px;
+
 	
 }
 .hab-4,.hab-5,.hab-6{
