@@ -644,11 +644,16 @@ margin-bottom: 15%;
 	transition: all 0.3s ease-in-out;
 	text-align: center;
 	color:#333333;
+	letter-spacing: 1px;
 	
 }
 .opacidadeZero{
 opacity: 0;
 
+}
+.habilidadesDarkMode{
+	color: #fce6a2;
+	border-color: #fce6a2;
 
 }
 

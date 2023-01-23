@@ -66,6 +66,13 @@ function darkmode(){
 	linha1.classList.add('mudaCorLinha');
 	linha2.classList.add('mudaCorLinha');
 	linha3.classList.add('mudaCorLinha');
+	hab1.classList.add('habilidadesDarkMode');
+	hab2.classList.add('habilidadesDarkMode');
+	hab3.classList.add('habilidadesDarkMode');
+	hab4.classList.add('habilidadesDarkMode');
+	hab5.classList.add('habilidadesDarkMode');
+	hab6.classList.add('habilidadesDarkMode');
+	textoHabilidades.classList.add('habilidadesDarkMode');
 	menu.style.opacity='80%'
 	for (let i = 0; i < iconeMeio.length; i++) {
 		
@@ -92,6 +99,13 @@ function lightmode(){
 	linha1.classList.remove('mudaCorLinha');
 	linha2.classList.remove('mudaCorLinha');
 	linha3.classList.remove('mudaCorLinha');
+	hab1.classList.remove('habilidadesDarkMode');
+	hab2.classList.remove('habilidadesDarkMode');
+	hab3.classList.remove('habilidadesDarkMode');
+	hab4.classList.remove('habilidadesDarkMode');
+	hab5.classList.remove('habilidadesDarkMode');
+	hab6.classList.remove('habilidadesDarkMode');
+	textoHabilidades.classList.remove('habilidadesDarkMode');
 	menu.style.opacity='50%'
 	for (let i = 0; i < iconeMeio.length; i++) {
 		
