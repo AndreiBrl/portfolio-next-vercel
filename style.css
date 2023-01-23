@@ -359,7 +359,7 @@ main{
 	font-family: CodeNext;
 	color: #2D2D2D;
 	padding-top: 10%;
-	padding-left: 40%;
+	padding-left: 50%;
 
 }
 .tituloSessao1 h3{
@@ -367,7 +367,7 @@ main{
 	font-size: 190%;
 	color: #C84B31;
 	
-	padding-left: 40%;
+	padding-left: 50%;
 }
 
 .iconeMeio h1{
@@ -675,7 +675,7 @@ opacity: 0;
 .perfilSessaoUm{
 	padding-top: 10%;
 	width: 70%;
-	padding-left: 12%;
+	padding-left: 16%;
 	
 
 	
