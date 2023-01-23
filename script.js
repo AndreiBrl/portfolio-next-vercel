@@ -124,6 +124,7 @@ var modoSecreto =document.querySelector('.modoSecreto')
 var interrogacao = document.querySelector('.interrogacao')
 var textoCharada = document.querySelector('.textoCharada')
 var entradaUsuario = document.querySelector('.entradaUsuario')
+
 var btnCharada = document.querySelector('.btnCharada')
 var downloadIcon = document.querySelector('.downloadIcon')
 var flag =0;
@@ -141,7 +142,7 @@ var flag =0;
 			
 			var typedModoSecreto = new Typed(".modoSecreto", {
 				
-				strings: [" ^1000 <br>[MODO SECRETO ATIVADO] ^1000",". EXPERIMENTO MENTAL <br><br><br>  . . . INICIADO . . . ^1000","<br><br> . . . RESPONDA:^1000"],
+				strings: [" ^1000 <br>[MODO SECRETO ATIVADO] ^500",". EXPERIMENTO MENTAL <br><br><br>  . . . INICIADO . . . ^500","<br><br> . . . RESPONDA:^500"],
 				
 				typeSpeed: 30,
 				
@@ -161,7 +162,7 @@ var flag =0;
 					textoCharada.classList.add('opacidadeFull');
 					var typedTextoCharada = new Typed(".textoCharada", {
 					
-					strings: [" ^1000 Um homem mora no último andar de um edifício de 20 andares.<br><br> Todos os dias ele toma o elevador para descer e seguir para<br><br>o trabalho. Ao voltar do trabalho, ele sobe até o 14º andar<br><br>e segue subindo a pé, menos nos dias de chuva. Por quê?"],
+					strings: [" ^500 Alguns dizem que já existo, outros que não.<br><br> Posso ser revolução ou destruição. <br><br> Sou um protótipo do que todos já possuem. <br><br>Quem sou eu?"],
 					
 					typeSpeed: 10,
 					
@@ -174,10 +175,13 @@ var flag =0;
 					onComplete: (self)=>{
 						
 						typedModoSecreto.destroy();
+
 						entradaUsuario.style.display='inline-block';
 						btnCharada.style.display='inline-block';
+						
 						setTimeout(() => {
 							entradaUsuario.classList.add('opacidadeFull');
+							
 							btnCharada.classList.add('opacidadeFull');
 							
 							
@@ -206,7 +210,7 @@ var flag =0;
 			
 			var typed = new Typed(".modoSecreto", {
 
-				strings: ["^1000 = > ACERTOU! ^1000", "^1000 DOWNLOAD DO CURRÍCULO <br><br> . . . LIBERADO . . . ^300"],
+				strings: ["^500 = > ACERTOU! ^1000", "^500 DOWNLOAD DO CURRÍCULO <br><br> . . . LIBERADO . . . ^300"],
 			
 				typeSpeed: 50,
 			

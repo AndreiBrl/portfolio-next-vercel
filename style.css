@@ -177,8 +177,8 @@ main{
 	/*animation: colors 15s ease ;*/
 }
 .iconeGit img {
-	width: 8.5%;
-	margin-left:7%;
+	width: 30%;
+	margin-left:27%;
 	margin-bottom: 2%;
 	opacity: 90%;
 	transition: all 0.5s;
@@ -191,8 +191,8 @@ main{
 
 
 .iconeWpp img{
-	width: 5.5%;
-	margin-left:8%;
+	width: 20%;
+	margin-left:30%;
 	margin-bottom: 2.5%;
 	opacity: 90%;
 	transition: all 0.5s;
@@ -203,8 +203,8 @@ main{
 	opacity: 50%;
 }
 .iconeLinkedin img{
-	width: 5.5%;
-	margin-left:8%;
+	width: 20%;
+	margin-left:30%;
 	transition: all 0.5s;
 	
 }
@@ -239,6 +239,7 @@ main{
 	bottom: 15%;
 	position: fixed;
 	margin-top: 32%;
+	width: 10%;
 	
 	
 	/*animation: redes-sociais 2.5s ease-in-out;*/
@@ -413,7 +414,7 @@ main{
 	position: absolute;
 	color: #0c781d;
 	top: 30%;
-	left: 66.8%;
+	left: 50%;
 	height: 21%;
 	font-family: Alice;
 	font-size: 2080%;
@@ -437,25 +438,25 @@ main{
 	left: 20%;
 	position:absolute;
 	background-color: black;
-	padding: 24px;
 	color: #0c781d;
 	font-family: Instru;
-	font-size: 80%;
+	font-size: 60%;
 	width: 13%;
 	resize: horizontal;
-	border-radius: 7px;
-	transition: all 1s ease-in-out;
+	border-radius: 3px;
+	transition: all 0.3s ease-in-out;
 	opacity: 0%;
 	display: none;
+	padding-bottom: 20px;
 }
 .entradaUsuario:focus{
-	width: 38%;
+	width: 30%;
 }
 .btnCharada{
 	display: none;
 	position: absolute;
 	top: 75%;
-	left: 38%;
+	left: 33%;
 	font-family: Instru;
 	transition: all 1s ease-in-out;
 	cursor: pointer;
@@ -465,7 +466,7 @@ main{
 	display: none;
 	position: absolute;
 	top: 82%;
-	left: 38.7%;
+	left: 33.7%;
 	transition: all 2s ease-in-out;
 	width: 18%;
 	cursor: pointer;
@@ -767,21 +768,21 @@ visibility: hidden;
 }
 
 .iconeGit img {
-	width: 30%;
+	width: 100%;
 	position: absolute;
 	
 	opacity: 80%;
 }
 .iconeWpp img{
-	margin-left: 10%;
-	width: 20%;
+	margin-left: 40%;
+	width: 75%;
 	opacity: 80%;
 	position: absolute;
 	
 }
 .iconeLinkedin img{
-	margin-left: 10%;	
-	width: 20%;
+	margin-left: 40%;	
+	width: 75%;
 	
 	opacity: 80%;
 }
