@@ -752,10 +752,12 @@ opacity: 0;
 }
 
 .textoHabilidades{
-	left: 12%;
+	align-items: center;
+	left: 20%;
 	top: 280%;
-	right: 10%;
-	font-size: 250%;
+	
+	font-size: 150%;
+	text-align: center;
 
 }
 

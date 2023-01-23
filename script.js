@@ -327,7 +327,7 @@ hab2.addEventListener('mouseover',()=>{
 	textoHabilidades.classList.add('opacidadeZero');
 	setTimeout(() => {
 		textoHabilidades.classList.remove('opacidadeZero');
-		textoHabilidades.innerHTML='Este site é fruto dos meus estudos <br><br>nessas 3 linguagens. Gosto bastante <br><br>e tento sempre estudar para integrar<br><br> mais funcionalidades. ';
+		textoHabilidades.innerHTML='Este site é fruto dos meus estudos nessas<br><br>3 linguagens. Estou sempre estudando para integrar<br><br> mais funcionalidades. ';
 		
 	}, 300);
 })
