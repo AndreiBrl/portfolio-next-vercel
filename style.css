@@ -197,6 +197,8 @@ main{
 }
 .iconeGit img:hover {
 	opacity: 50%;
+	margin-left:32%;
+	
 }
 
 
@@ -211,6 +213,7 @@ main{
 }
 .iconeWpp img:hover {
 	opacity: 50%;
+	margin-left:35%;
 }
 .iconeLinkedin img{
 	width: 20%;
@@ -220,6 +223,7 @@ main{
 }
 .iconeLinkedin img:hover {
 	opacity: 50%;
+	margin-left: 35%;
 }
 .fundoIconesDark{
 	left: 2.4%;
@@ -581,7 +585,11 @@ main{
 
 }
 .projetos h5{
-	margin-left: 10%;
+	margin-left: 8.5%;
+	font-family: CodeNext;
+	color: #333333;
+	font-size: 100%;
+	margin-bottom: 0.5%;
 }
 .emBreve{
 	display: flex;	
