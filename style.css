@@ -792,20 +792,20 @@ opacity: 0;
 .projetos h3{
 	
 	
-	font-size: 100%;
+	font-size: 90%;
 	font-family: CodeNext;
 	color: #C84B31;
 	margin-bottom: 3%;
-	margin-left: 20%;
+	margin-left: 25%;
 	letter-spacing: 2px;
 
 }
 .projetos h5{
-	margin-left: 27%;
+	margin-left: 32%;
 	font-family: CodeNext;
 	color: #333333;
-	font-size: 80%;
-	margin-bottom: 2%;
+	font-size: 70%;
+	margin-bottom: 10%;
 }
 .emBreve{
 	display: inline-block;	
