@@ -544,13 +544,16 @@ main{
 }
 .projetos{
 	padding-bottom: 8%;
+	display: block;
+	margin-left: 20%;
+	margin-right: 12%;
+	
 }
 .projetos h4{
 	font-family: Kontanter;
 	font-size: 120%;
 	color: #C84B31;
 	letter-spacing: 10px;
-	padding-left: 20%;
 
 }
 .projetos h1{
@@ -565,26 +568,60 @@ main{
 	font-family: Instru;
 	font-size: 350%;
 	color: #2D2D2D;	
-	padding-left: 20%;
+	margin-bottom: 7%;
 
+}
+.projetos h3{
+	font-size: 120%;
+	font-family: CodeNext;
+	color: #C84B31;
+	margin-bottom: 2%;
+	margin-left: 6%;
+	letter-spacing: 2px;
 
+}
+.projetos h5{
+	margin-left: 10%;
 }
 .emBreve{
-	display: flex;
-
-	margin-left: 7%;
+	display: flex;	
 }
-.box1{
+.calc{
 	
+	padding-left: 8%;
+}
+.calc img{
+	width: 50%;
+	border-radius: 7px;
+	opacity: 70%;
+	
+	
+}
+.calc img:hover{
+	opacity: 12%;
+	backdrop-filter: blur(10px);
+}
+.box2{
+	display: block;
 	border-radius: 10%;
 	background-color:#2D2D2D;
-	width: 18%;
+	width: 25%;
+	height: 18%;
+	margin-right: 12%;
+	padding: 8%;
+	opacity: 85%;
+
+
+}
+.box3{
+	display: block;
+	border-radius: 10%;
+	background-color:#2D2D2D;
+	width: 25%;
 	height: 18%;
 	
-	margin-top: 5%;
-	margin-left: 12%;
-	padding-bottom: 8%;
-	padding-top: 7%;
+	
+	padding: 8%;
 	opacity: 85%;
 
 

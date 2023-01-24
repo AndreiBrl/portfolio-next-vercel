@@ -279,6 +279,9 @@ function transformaIconeDl(){
 	}, 2000);
 }
 	
+
+
+
 /* HABILIDADES 
 
 Criado uma funcao mouseover e mouseout para controle do cursor, timeOuts criados 
