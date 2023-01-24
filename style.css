@@ -163,7 +163,17 @@ nav
 
 /* ------ MAIN-----*/
 
-@media screen and (min-width: 980px){
+/* Responsividade telas grandes*/
+
+@media screen and (min-width: 1400px){
+	.perfilSessaoUm{
+		display: none;
+	}
+
+
+}
+
+/*Tela meu Note*/
 html{
 	scroll-behavior: smooth;
 
@@ -663,7 +673,7 @@ opacity: 0;
 }
 
 
-}
+
 /*---------- RESPONSIVIDADE ---------*/
 
 @media screen and (max-width: 980px){
