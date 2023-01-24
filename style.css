@@ -606,7 +606,7 @@ main{
 	
 }
 .calc img:hover{
-	opacity: 12%;
+	opacity: 50%;
 	backdrop-filter: blur(10px);
 }
 .box2{
