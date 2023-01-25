@@ -217,7 +217,7 @@ nav
 }
 
 .perfilSessaoUm{
-	
+	display: none;
 	width: 120%;
 	padding-top: 25%;
 	opacity: 80%;
