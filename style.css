@@ -835,7 +835,8 @@ main{
 	
 }
 .perfilPB{
-	margin-top: 10%;
+	margin-top: 12%;
+	margin-right: 5%;
 	background-color:#bcbcd63a;
     padding-left: 15%;
     padding-right: 15%;
@@ -843,7 +844,7 @@ main{
 	background-image: url(img/teste.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 50%;
+	background-size: 38%;
 	-webkit-background-clip: text;
 	color: transparent;
 	width: 40%;
