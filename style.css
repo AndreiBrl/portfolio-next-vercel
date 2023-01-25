@@ -836,16 +836,15 @@ main{
 	
 }
 .perfilPB{
-	margin-top: 12%;
-	margin-right: 5%;
+	
+	margin-top: 10%;
 	background-color:#bcbcd63a;
     padding-left: 15%;
     padding-right: 15%;
-
 	background-image: url(img/teste.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 38%;
+	background-size: 50%;
 	-webkit-background-clip: text;
 	color: transparent;
 	width: 40%;
