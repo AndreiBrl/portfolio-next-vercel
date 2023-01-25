@@ -696,7 +696,8 @@ nav
 	}
 	.textoHabilidades{
 		position: absolute;
-		font-size: 100%;
+		font-size: 150%;
+		top: 80%;
 		left: 60%;
 		right: 20%;
 		font-family: CodeNext;
