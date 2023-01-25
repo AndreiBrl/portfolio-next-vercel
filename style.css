@@ -632,7 +632,7 @@ opacity: 0;
 }
 
 /*Tela meu Note*/
-@media screen and (max-width: 1366px){
+
 html{
 	scroll-behavior: smooth;
 
@@ -1177,7 +1177,7 @@ opacity: 0;
 }
 
 
-}
+
 /*---------- RESPONSIVIDADE ---------*/
 
 @media screen and (max-width: 980px){
