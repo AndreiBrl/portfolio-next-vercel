@@ -185,7 +185,7 @@ nav
 
 
 .perfilSessaoUm{
-	
+	display: none;
 	width: 150%;
 	padding-top: 70%;
 	opacity: 80%;
