@@ -913,7 +913,6 @@ main{
 	font-family: Kontanter;
 	letter-spacing: 10px;
 	color: #333333;
-	padding-top: 5%;
 	padding-bottom: 10%;
 	padding-left: 45%;
 	
@@ -924,7 +923,6 @@ main{
 	font-family: Kontanter;
 	letter-spacing: 10px;
 	color: #fce6a2;
-	padding-top: 5%;
 	padding-bottom: 10%;
 	padding-left: 45%;
 	display: none;
@@ -938,6 +936,7 @@ main{
 	background-color:transparent;
 	border: none;
 	margin-left:91%;
+	margin-top: 2%;
 
 }
 .botao img{
@@ -1305,7 +1304,7 @@ opacity: 0;
 }
 .tituloSessao1 h2{
 	font-size: 500%;
-	padding-top: 20%;
+	padding-top: 10%;
 	padding-left: 20%;
 	
 	
