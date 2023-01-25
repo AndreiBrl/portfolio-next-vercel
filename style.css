@@ -166,9 +166,539 @@ nav
 /* Responsividade telas grandes*/
 
 @media screen and (min-width: 1400px){
-	.perfilSessaoUm{
-		display: none;
+
+	
+.iconeGit img {
+	width: 30%;
+	margin-left:27%;
+	margin-bottom: 2%;
+	opacity: 90%;
+	transition: all 0.5s;
+	
+	
+}
+.iconeGit img:hover {
+	opacity: 50%;
+	margin-left:32%;
+	
+}
+
+
+.iconeWpp img{
+	width: 20%;
+	margin-left:30%;
+	margin-bottom: 2.5%;
+	opacity: 90%;
+	transition: all 0.5s;
+	
+	
+}
+.iconeWpp img:hover {
+	opacity: 50%;
+	margin-left:35%;
+}
+.iconeLinkedin img{
+	width: 20%;
+	margin-left:30%;
+	transition: all 0.5s;
+	
+}
+.iconeLinkedin img:hover {
+	opacity: 50%;
+	margin-left: 35%;
+}
+.fundoIconesDark{
+	left: 2.4%;
+	bottom: 0;
+	width: 0%;
+	position: fixed;
+	margin-top: 32%;
+	background-color:#fce6a2;
+	height: 38%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+	opacity: 90%;
+	transition: all 0.3s ease-in-out;
+	
+}
+/*  Classe corresponde fundo de icones tela CHEIA*/
+.movimentaFundoIconesDark{
+	
+	width: 3.5%;
+	
+	
+}
+.icones{
+	
+	left: 0;
+	bottom: 15%;
+	position: fixed;
+	margin-top: 32%;
+	width: 10%;
+	
+	
+	/*animation: redes-sociais 2.5s ease-in-out;*/
+	
+	
+}
+
+
+.linhaVertical{
+	position: absolute;
+	position: fixed;
+	border-left: 2px solid #2D2D2D;
+	margin-top: 43%;
+	margin-left:4%;
+	padding-bottom: 15%;
+	opacity: 85%;
+	animation: redes-sociais 2.5s ease-in-out;
+	
+}
+
+.perfilSessaoUm{
+	
+	width: 120%;
+	padding-top: 25%;
+	opacity: 80%;
+	padding-left: 100%;
+	
+	
+}
+.perfilPB{
+	margin-top: 10%;
+	background-color:#bcbcd63a;
+    padding-left: 15%;
+    padding-right: 15%;
+
+	background-image: url(img/teste.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	-webkit-background-clip: text;
+	color: transparent;
+	width: 40%;
+	font-size: 12px;
+	text-align: center;
+	display: none;
+	font-family: Instru;
+	
+}
+.perfilPBMobile{
+	margin-top: 10%;
+	
+	background-color:#bcbcd63a;
+	background-image: url(img/teste.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+	-webkit-background-clip: text;
+	color: transparent;
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	display: none;
+	font-family: Instru;
+	
+}
+
+
+.botao{
+	width: 2%;
+	background-color:transparent;
+	border: none;
+	margin-left:91%;
+
+}
+.botao img{
+	width: 400%;
+	left: 0;
+}
+.cubo{
+	width: 5%;
+	padding-left: 92%;
+	animation: CuboMexe 3s linear infinite;
+}
+.sombra{
+	border-bottom: 8px solid black;
+	margin-left: 93%;
+	margin-right: 3.5%;
+	margin-top: 1%;
+	border-radius: 90%;
+	opacity: 75%;
+	animation: sombraAcompanha 3s linear infinite;
+
+	
+}
+.containerimg{
+	
+	padding-left: 5%;
+
+}
+.container{
+	display: flex;
+		
+}
+.tituloSessao1{
+	padding-top: 7%;
+	padding-bottom: 0;
+	
+	margin-bottom: 0;
+	width: 30%;
+	
+}
+
+
+.tituloSessao1 h2{
+
+	font-size: 450%;
+	font-family: CodeNext;
+	color: #2D2D2D;
+	padding-top: 10%;
+	padding-left: 50%;
+
+}
+.tituloSessao1 h3{
+	font-family: Instru;
+	font-size: 190%;
+	color: #C84B31;
+	
+	padding-left: 50%;
+}
+
+.iconeMeio h1{
+	font-family: Kontanter;
+	letter-spacing: 10px;
+	color: #333333;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	padding-left: 45%;
+	
+	
+	
+}
+.iconeMeioFonteBranca h1{
+	font-family: Kontanter;
+	letter-spacing: 10px;
+	color: #fce6a2;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	padding-left: 45%;
+	display: none;
+
+}
+/* charada */
+.balao {
+	position: absolute;
+	top: 0%;
+	left: 65%;
+	height: 22%;
+	transition: all 1s ease-in-out;
+	opacity: 0%;
+
+}
+.modoSecreto{
+	position: absolute;
+	top: 5.4%;
+	left: 66.4%;
+	height: 21%;
+	opacity: 0;
+	font-family: dogica;
+	font-size: 48%;
+	transition: all 1s ease-in-out;
+	
+}
+.interrogacao{
+	position: absolute;
+	color: #0c781d;
+	top: 30%;
+	left: 50%;
+	height: 21%;
+	font-family: Alice;
+	font-size: 2080%;
+	opacity: 0;
+	transition: all 5s ease-in-out;
+}
+
+.textoCharada{
+	position: absolute;
+	top: 35.4%;
+	left: 20%;
+	height: 21%;
+	opacity: 0%;
+	font-family: Instru;
+	font-size: 100%;
+	transition: all 1s ease-in-out;
+	
+}
+.entradaUsuario{
+	top: 60%;
+	left: 20%;
+	position:absolute;
+	background-color: black;
+	color: #0c781d;
+	font-family: Instru;
+	font-size: 60%;
+	width: 13%;
+	resize: horizontal;
+	border-radius: 3px;
+	transition: all 0.3s ease-in-out;
+	opacity: 0%;
+	display: none;
+	padding-bottom: 20px;
+}
+.entradaUsuario:focus{
+	width: 30%;
+}
+.btnCharada{
+	display: none;
+	position: absolute;
+	top: 75%;
+	left: 33%;
+	font-family: Instru;
+	transition: all 1s ease-in-out;
+	cursor: pointer;
+	opacity: 0%;
+}
+.downloadIcon{
+	display: none;
+	position: absolute;
+	top: 82%;
+	left: 33.7%;
+	transition: all 2s ease-in-out;
+	width: 18%;
+	cursor: pointer;
+	opacity: 0%;
+	
+	
+}
+.movimentaDownloadIcon{
+	
+	top: 7.5%;
+	left: 33%;
+	width: 15%;
+}
+
+.opacidadeFull{
+	opacity: 100%;
+
+}
+	.opacidadeInterrogacao{
+		opacity: 50%;
+	
 	}
+
+/* fim charada*/
+.sobre{
+	vertical-align: top;
+}
+
+.sobre h4{
+	font-family: Kontanter;
+	font-size: 110%;
+	color: #C84B31;
+	letter-spacing: 10px;
+	
+	padding-left: 20%;
+
+}
+.sobre h2{
+	font-family: Instru;
+	font-size: 350%;
+	color: #333333;
+	
+	padding-left: 20%;
+}
+.sobre p{
+
+	font-size: 85%;
+	color: #333333;
+	padding-top: 5%;
+	padding-left: 20%;
+	line-height: 200%;
+	text-align: left;
+	padding-right: 15%;
+	font-family: Instru;
+	transition: all 2s ease-in-out;
+}
+.opacidadeSobreParagrafo{
+	opacity: 0;
+}
+.sobre img{
+	width: 15%;
+	padding-right: 10%;
+}
+.projetos{
+	padding-bottom: 8%;
+	display: block;
+	margin-left: 20%;
+	margin-right: 12%;
+	
+}
+.projetos h4{
+	font-family: Kontanter;
+	font-size: 120%;
+	color: #C84B31;
+	letter-spacing: 10px;
+
+}
+.projetos h1{
+	
+	color: #FFD369;
+	font-size: 200%;
+	text-align: center;
+	font-family: CodeNext;
+}
+.projetos h2{
+	
+	font-family: Instru;
+	font-size: 350%;
+	color: #2D2D2D;	
+	margin-bottom: 7%;
+
+}
+.projetos h3{
+	font-size: 120%;
+	font-family: CodeNext;
+	color: #C84B31;
+	margin-bottom: 2%;
+	margin-left: 6%;
+	letter-spacing: 2px;
+
+}
+.projetos h5{
+	margin-left: 8.5%;
+	font-family: CodeNext;
+	color: #333333;
+	font-size: 100%;
+	margin-bottom: 0.5%;
+}
+.emBreve{
+	display: flex;	
+}
+.calc{
+	
+	padding-left: 8%;
+}
+.calc img{
+	width: 50%;
+	border-radius: 7px;
+	opacity: 70%;
+	
+	
+}
+.calc img:hover{
+	opacity: 50%;
+	backdrop-filter: blur(10px);
+}
+.box2{
+	display: block;
+	border-radius: 10%;
+	background-color:#2D2D2D;
+	width: 25%;
+	height: 18%;
+	margin-right: 12%;
+	padding: 8%;
+	opacity: 85%;
+
+
+}
+.box3{
+	display: block;
+	border-radius: 10%;
+	background-color:#2D2D2D;
+	width: 25%;
+	height: 18%;
+	
+	
+	padding: 8%;
+	opacity: 85%;
+
+
+}
+.habilidades{
+	display: block;
+}
+
+.listaHab{
+	display: flex;
+	margin-left: 20%;
+	margin-right: 8%;
+		
+	
+}
+.hab-1,.hab-2,.hab-3,.hab-4,.hab-5,.hab-6{
+	
+	
+	transition: all 0.2s ease-in-out;
+	border-style: solid;
+	border-color:#2D2D2D;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 12px;
+	font-size: 150%;
+	font-family: Instru;
+	color: #2D2D2D;
+	opacity: 90%;
+	
+}
+.hab-4,.hab-5,.hab-6{
+margin-bottom: 15%;
+
+}
+
+.hab-1:hover,.hab-2:hover,.hab-3:hover,.hab-4:hover,.hab-5:hover,.hab-6:hover{
+
+	padding: 14px;
+	
+	background-color: #C84B31 ;
+
+}
+
+.habilidades h4{
+	font-family: Kontanter;
+	font-size: 120%;
+	color: #C84B31;
+	letter-spacing: 10px;
+	
+	padding-left: 20%;
+
+}
+
+
+.habilidades h2{
+	
+	font-family: Instru	;
+	font-size: 350%;
+	color: #2D2D2D;
+	padding-bottom: 8%;
+	padding-left: 20%;
+
+
+}
+.textoHabilidades{
+	position: absolute;
+	font-size: 100%;
+	left: 60%;
+	right: 20%;
+	font-family: CodeNext;
+	transition: all 0.3s ease-in-out;
+	text-align: center;
+	color:#333333;
+	letter-spacing: 1px;
+	line-height: 200%;
+	
+}
+.opacidadeZero{
+opacity: 0;
+
+}
+.habilidadesDarkMode{
+	color: #fce6a2;
+	border-color: #fce6a2;
+
+}
+	
 
 
 }
