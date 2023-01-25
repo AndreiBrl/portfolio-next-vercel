@@ -355,7 +355,7 @@ nav
 		font-family: Kontanter;
 		letter-spacing: 10px;
 		color: #333333;
-		padding-top: 5%;
+
 		padding-bottom: 10%;
 		padding-left: 45%;
 		
@@ -367,7 +367,7 @@ nav
 		font-family: Kontanter;
 		letter-spacing: 10px;
 		color: #fce6a2;
-		padding-top: 5%;
+
 		padding-bottom: 10%;
 		padding-left: 45%;
 		display: none;
@@ -381,6 +381,7 @@ nav
 		background-color:transparent;
 		border: none;
 		margin-left:91%;
+		margin-top: 7%;
 	
 	}
 	.botao img{
