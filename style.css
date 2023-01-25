@@ -580,12 +580,12 @@ nav
 		font-family: CodeNext;
 		color: #C84B31;
 		margin-bottom: 2%;
-		margin-left: 6%;
+		margin-left: 8%;
 		letter-spacing: 2px;
 	
 	}
 	.projetos h5{
-		margin-left: 8.5%;
+		margin-left: 9.5%;
 		font-family: CodeNext;
 		color: #333333;
 		font-size: 100%;
@@ -611,7 +611,7 @@ nav
 	}
 	.box2{
 		display: block;
-		border-radius: 10%;
+		border-radius: 15px;
 		background-color:#2D2D2D;
 		width: 25%;
 		height: 18%;
@@ -623,7 +623,7 @@ nav
 	}
 	.box3{
 		display: block;
-		border-radius: 10%;
+		border-radius: 15px;
 		background-color:#2D2D2D;
 		width: 25%;
 		height: 18%;
