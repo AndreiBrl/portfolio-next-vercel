@@ -349,8 +349,9 @@ nav
 		padding-left: 40%;
 		
 	}
-	
+	/* to do => transformar em apenas uma classe que muda cor*/
 	.iconeMeio h1{
+		font-size: 150%;
 		font-family: Kontanter;
 		letter-spacing: 10px;
 		color: #333333;
@@ -362,6 +363,7 @@ nav
 		
 	}
 	.iconeMeioFonteBranca h1{
+		font-size: 150%;
 		font-family: Kontanter;
 		letter-spacing: 10px;
 		color: #fce6a2;
@@ -401,7 +403,7 @@ nav
 	
 		
 	}
-	
+
 	.balao {
 		position: absolute;
 		top: 0%;
