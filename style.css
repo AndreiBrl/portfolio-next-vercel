@@ -167,52 +167,12 @@ nav
 
 @media screen and (min-width: 1400px){
 
-	
-.iconeGit img {
-	width: 30%;
-	margin-left:27%;
-	margin-bottom: 2%;
-	opacity: 90%;
-	transition: all 0.5s;
-	
-	
-}
-.iconeGit img:hover {
-	opacity: 50%;
-	margin-left:32%;
-	
-}
-
-
-.iconeWpp img{
-	width: 20%;
-	margin-left:30%;
-	margin-bottom: 2.5%;
-	opacity: 90%;
-	transition: all 0.5s;
-	
-	
-}
-.iconeWpp img:hover {
-	opacity: 50%;
-	margin-left:35%;
-}
-.iconeLinkedin img{
-	width: 20%;
-	margin-left:30%;
-	transition: all 0.5s;
-	
-}
-.iconeLinkedin img:hover {
-	opacity: 50%;
-	margin-left: 35%;
-}
 .fundoIconesDark{
 	left: 2.4%;
 	bottom: 0;
 	width: 0%;
 	position: fixed;
-	margin-top: 32%;
+	margin-top: 40%;
 	background-color:#fce6a2;
 	height: 38%;
 	border-top-left-radius: 10px;
