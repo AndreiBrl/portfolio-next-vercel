@@ -276,7 +276,8 @@ nav
 		
 	}
 	.perfilPB{
-		margin-top: 10%;
+		margin-top: 12%;
+		margin-right: 5%;
 		background-color:#bcbcd63a;
 		padding-left: 15%;
 		padding-right: 15%;
@@ -284,7 +285,7 @@ nav
 		background-image: url(img/teste.png);
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 50%;
+		background-size: 38%;
 		-webkit-background-clip: text;
 		color: transparent;
 		width: 40%;
@@ -1163,7 +1164,7 @@ main{
 }
 .box2{
 	display: block;
-	border-radius: 10%;
+	border-radius: 10px;
 	background-color:#2D2D2D;
 	width: 25%;
 	height: 18%;
@@ -1175,7 +1176,7 @@ main{
 }
 .box3{
 	display: block;
-	border-radius: 10%;
+	border-radius: 10px;
 	background-color:#2D2D2D;
 	width: 25%;
 	height: 18%;
