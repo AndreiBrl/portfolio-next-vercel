@@ -174,7 +174,7 @@ nav
 	position: fixed;
 	margin-top: 32%;
 	background-color:#fce6a2;
-	height: 29%;
+	height: 32%;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	
@@ -182,42 +182,10 @@ nav
 	transition: all 0.3s ease-in-out;
 	
 }
-/*  Classe corresponde fundo de icones tela CHEIA*/
-.movimentaFundoIconesDark{
-	
-	width: 3.5%;
-	
-	
-}
-.icones{
-	
-	left: 0;
-	bottom: 15%;
-	position: fixed;
-	margin-top: 32%;
-	width: 10%;
-	
-	
-	/*animation: redes-sociais 2.5s ease-in-out;*/
-	
-	
-}
 
-
-.linhaVertical{
-	position: absolute;
-	position: fixed;
-	border-left: 2px solid #2D2D2D;
-	margin-top: 43%;
-	margin-left:4%;
-	padding-bottom: 15%;
-	opacity: 85%;
-	animation: redes-sociais 2.5s ease-in-out;
-	
-}
 
 .perfilSessaoUm{
-	display: none;
+	
 	width: 120%;
 	padding-top: 25%;
 	opacity: 80%;
