@@ -829,7 +829,7 @@ main{
 .perfilSessaoUm{
 	
 	width: 120%;
-	padding-top: 25%;
+	padding-top: 55%;
 	opacity: 80%;
 	padding-left: 100%;
 	
@@ -854,6 +854,7 @@ main{
 	font-family: Instru;
 	
 }
+/*
 .perfilPBMobile{
 	margin-top: 10%;
 	
@@ -871,35 +872,7 @@ main{
 	font-family: Instru;
 	
 }
-
-
-.botao{
-	width: 2%;
-	background-color:transparent;
-	border: none;
-	margin-left:91%;
-
-}
-.botao img{
-	width: 400%;
-	left: 0;
-}
-.cubo{
-	width: 5%;
-	padding-left: 92%;
-	animation: CuboMexe 3s linear infinite;
-}
-.sombra{
-	border-bottom: 8px solid black;
-	margin-left: 93%;
-	margin-right: 3.5%;
-	margin-top: 1%;
-	border-radius: 90%;
-	opacity: 75%;
-	animation: sombraAcompanha 3s linear infinite;
-
-	
-}
+*/
 .containerimg{
 	
 	padding-left: 5%;
@@ -910,7 +883,7 @@ main{
 		
 }
 .tituloSessao1{
-	padding-top: 7%;
+	padding-top: 19%;
 	padding-bottom: 0;
 	
 	margin-bottom: 0;
@@ -924,7 +897,7 @@ main{
 	font-size: 450%;
 	font-family: CodeNext;
 	color: #2D2D2D;
-	padding-top: 10%;
+
 	padding-left: 50%;
 
 }
@@ -958,6 +931,36 @@ main{
 
 }
 /* charada */
+
+
+.botao{
+	width: 2%;
+	background-color:transparent;
+	border: none;
+	margin-left:91%;
+
+}
+.botao img{
+	width: 400%;
+	left: 0;
+}
+.cubo{
+	width: 5%;
+	padding-left: 92%;
+	animation: CuboMexe 3s linear infinite;
+}
+.sombra{
+	border-bottom: 8px solid black;
+	margin-left: 93%;
+	margin-right: 3.5%;
+	margin-top: 1%;
+	border-radius: 90%;
+	opacity: 75%;
+	animation: sombraAcompanha 3s linear infinite;
+
+	
+}
+
 .balao {
 	position: absolute;
 	top: 0%;
@@ -1293,10 +1296,10 @@ opacity: 0;
 	padding-left: 20%;
 	font-size: 8px;
 }
-
+/*
 .perfilPBMobile{
  display: none;
-}
+}*/
 .tituloSessao1{
 	width: 100%;
 }
