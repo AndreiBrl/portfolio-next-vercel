@@ -355,7 +355,7 @@ nav
 		
 		margin-bottom: 0;
 		width: 30%;
-		
+		display: block;
 	}
 	
 	
@@ -364,7 +364,7 @@ nav
 		font-size: 450%;
 		font-family: CodeNext;
 		color: #2D2D2D;
-		padding-top: 60%;
+		padding-top: 50%;
 		padding-left: 70%;
 	
 	}
