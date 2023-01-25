@@ -161,11 +161,11 @@ nav
 	visibility: hidden;
 }
 
-/* ------ MAIN-----*/
+
 
 /* Responsividade telas grandes*/
 
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1600px ){
 
 .fundoIconesDark{
 	left: 2.4%;
@@ -185,7 +185,7 @@ nav
 
 
 .perfilSessaoUm{
-	width: 150%;
+	width: 50%;
 	padding-top: 70%;
 	opacity: 80%;
 	padding-left: 135%;
@@ -631,7 +631,7 @@ opacity: 0;
 }
 
 /*Tela meu Note*/
-
+/* ------ MAIN-----*/
 html{
 	scroll-behavior: smooth;
 
