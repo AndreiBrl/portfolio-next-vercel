@@ -165,7 +165,7 @@ nav
 
 /* Responsividade telas grandes*/
 
-@media screen and (min-width: 1600px ){
+@media screen and (min-width: 1400px ){
 	html{
 		scroll-behavior: smooth;
 	
@@ -269,9 +269,9 @@ nav
 	.perfilSessaoUm{
 		
 		width: 150%;
-		padding-top: 70%;
+		padding-top: 60%;
 		opacity: 80%;
-		padding-left: 100%;
+		padding-left: 130%;
 		
 		
 	}
@@ -364,8 +364,8 @@ nav
 		font-size: 450%;
 		font-family: CodeNext;
 		color: #2D2D2D;
-		padding-top: 75%;
-		padding-left: 50%;
+		padding-top: 60%;
+		padding-left: 70%;
 	
 	}
 	.tituloSessao1 h3{
@@ -373,7 +373,7 @@ nav
 		font-size: 190%;
 		color: #C84B31;
 		
-		padding-left: 50%;
+		padding-left: 70%;
 	}
 	
 	.iconeMeio h1{
